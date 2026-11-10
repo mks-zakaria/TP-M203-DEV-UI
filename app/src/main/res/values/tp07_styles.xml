@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Une case de la grille des postes : même largeur pour les 3 colonnes, case remplie -->
+    <style name="tp07_CasePoste">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawableTop">@drawable/tp07_ic_poste</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:textColor">@color/tp07_white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Titre d'une section de l'écran -->
+    <style name="tp07_TitreSection">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tp07_bleu_nuit</item>
+    </style>
+</resources>

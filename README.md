@@ -8,8 +8,8 @@ Projet Android Studio des stagiaires (OFPPT · ISTA Khouribga · DEVOM). **Un se
   construire en suivant l'énoncé que donne le formateur.
 
 Déjà fournis : les **images** du module (dossiers `res/drawable…`, préfixes `sNN_` pour le cours et `tpNN_` pour
-les TP) et, pour chaque TP, ses **textes, couleurs et dimensions** (`res/values/tpNN_strings.xml`, `tpNN_colors.xml`,
-`tpNN_dimens.xml`). Les layouts et le code Kotlin, c'est vous qui les écrivez.
+les TP) et, pour chaque TP, ses **textes, couleurs, dimensions et styles** (`res/values/tpNN_strings.xml`, `tpNN_colors.xml`,
+`tpNN_dimens.xml`, `tpNN_styles.xml`). Les layouts et le code Kotlin, c'est vous qui les écrivez.
 
 ## 1. Récupérer le projet (une seule fois, à la maison, avec Internet)
 
