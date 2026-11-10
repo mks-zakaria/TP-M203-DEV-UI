@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pastille ronde verte -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="#FF1B7F3B" />
+    <stroke android:width="4dp" android:color="#FFD7F0DE" />
+</shape>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Recto de la carte : dégradé vert → bleu nuit -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="45"
+        android:endColor="@color/tp29_bleu_nuit"
+        android:startColor="@color/tp29_vert_ofppt" />
+    <corners android:radius="20dp" />
+    <padding android:left="24dp" android:top="20dp" android:right="24dp" android:bottom="20dp" />
+</shape>

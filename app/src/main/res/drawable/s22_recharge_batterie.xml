@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/recharge_batterie.xml : une image après l'autre, comme un film -->
+<!-- region etape2 -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/s22_batterie_0" android:duration="400" />
+    <item android:drawable="@drawable/s22_batterie_1" android:duration="400" />
+    <item android:drawable="@drawable/s22_batterie_2" android:duration="400" />
+    <item android:drawable="@drawable/s22_batterie_3" android:duration="400" />
+    <item android:drawable="@drawable/s22_batterie_4" android:duration="400" />
+</animation-list>
+<!-- endregion -->

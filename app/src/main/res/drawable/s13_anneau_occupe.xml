@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/anneau_occupe.xml : un anneau (rond évidé) -->
+<!-- region etape5b -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:innerRadius="12dp"
+    android:thickness="8dp"
+    android:useLevel="false">
+    <solid android:color="@color/s13_rouge" />
+</shape>
+<!-- endregion -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fond de la carte « état du poste » : rectangle arrondi vert clair -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/tp09_vert_clair" />
+    <stroke android:width="2dp" android:color="@color/tp09_vert_ofppt" />
+    <corners android:radius="16dp" />
+</shape>

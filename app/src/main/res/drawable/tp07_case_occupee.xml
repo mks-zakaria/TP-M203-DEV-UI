@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fond d'une case de la grille (coins arrondis) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/tp07_rouge" />
+    <corners android:radius="16dp" />
+</shape>

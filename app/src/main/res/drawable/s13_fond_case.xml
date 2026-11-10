@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/fond_case.xml : Android prend le 1er <item> qui correspond -->
+<!-- region etape7 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/s13_fond_case_appui" />
+    <!-- isSelected = true en Kotlin ; isEnabled = false (panne) -->
+    <item android:state_selected="true"
+        android:drawable="@drawable/s13_fond_case_choisie" />
+    <item android:state_enabled="false"
+        android:drawable="@drawable/s13_fond_case_hs" />
+    <!-- sinon : l'état normal, toujours en DERNIER -->
+    <item android:drawable="@drawable/s13_fond_case_libre" />
+</selector>
+<!-- endregion -->

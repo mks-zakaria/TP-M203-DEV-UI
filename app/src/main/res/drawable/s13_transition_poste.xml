@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/transition_poste.xml : fondu entre 2 drawables -->
+<!-- region etape9 -->
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/s13_ecran_eteint" />   <!-- départ -->
+    <item android:drawable="@drawable/s13_ecran_allume" />   <!-- arrivée -->
+</transition>
+<!-- endregion -->

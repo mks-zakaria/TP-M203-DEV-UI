@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/ticket_pile.xml : 4 couches dessinées dans l'ordre -->
+<!-- region etape6 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="24dp" android:top="24dp">
+        <shape><solid android:color="@color/s13_orange" />
+            <corners android:radius="16dp" /></shape>
+    </item>
+    <item android:left="12dp" android:top="12dp"
+        android:right="12dp" android:bottom="12dp">
+        <shape><solid android:color="@color/s13_jaune" />
+            <corners android:radius="16dp" /></shape>
+    </item>
+    <item android:right="24dp" android:bottom="24dp">
+        <shape><solid android:color="@color/s13_vert_ofppt" />
+            <corners android:radius="16dp" /></shape>
+    </item>
+    <!-- la dernière couche est dessinée par-dessus toutes les autres -->
+    <item android:drawable="@drawable/s13_ic_wifi" android:gravity="center"
+        android:width="72dp" android:height="72dp"
+        android:right="24dp" android:bottom="24dp" />
+</layer-list>
+<!-- endregion -->

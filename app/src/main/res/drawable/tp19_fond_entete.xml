@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fond de l'en-tête du tiroir : dégradé vert Al Amal -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="135"
+        android:endColor="#FF0E5A28"
+        android:startColor="#FF1B7F3B" />
+</shape>

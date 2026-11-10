@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/ecran_eteint.xml : un fond + l'icône du poste au centre -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape><solid android:color="@color/s13_bleu_nuit" />
+            <corners android:radius="24dp" /></shape>
+    </item>
+    <item android:drawable="@drawable/s13_ic_poste" android:gravity="center"
+        android:width="120dp" android:height="120dp" />
+</layer-list>

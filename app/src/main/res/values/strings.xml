@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Al Amal M203</string>
+    <string name="label_cours">Al Amal · Playground</string>
+    <string name="label_tp">Al Amal · TP</string>
+    <string name="titre_cours">PLAYGROUND</string>
+    <string name="titre_tp">MODE TP — choisissez votre TP</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/connexion_wifi.xml : une image après l'autre, comme un film -->
+<!-- region etape1 -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/s22_wifi_0" android:duration="300" />
+    <item android:drawable="@drawable/s22_wifi_1" android:duration="300" />
+    <item android:drawable="@drawable/s22_wifi_2" android:duration="300" />
+    <item android:drawable="@drawable/s22_wifi_3" android:duration="300" />
+    <item android:drawable="@drawable/s22_wifi_4" android:duration="300" />
+</animation-list>
+<!-- endregion -->

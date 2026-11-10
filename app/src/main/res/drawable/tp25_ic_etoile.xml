@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icône « star » pleine (Material Symbols, Apache 2.0) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960">
+    <group android:translateY="960">
+        <path
+            android:fillColor="@color/tp25_or"
+            android:pathData="m233,-120 l65,-281 L80,-590 l288,-25 112,-265 112,265 288,25 -218,189 65,281 -247,-149 -247,149Z" />
+    </group>
+</vector>

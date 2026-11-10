@@ -1,0 +1,13 @@
+package ma.ofppt.ista.alamal.tp.s23
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import ma.ofppt.ista.alamal.R
+
+// TP S23 — écran DetailActivity : à vous de jouer
+class DetailActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.tp23_activity_detail)
+    }
+}

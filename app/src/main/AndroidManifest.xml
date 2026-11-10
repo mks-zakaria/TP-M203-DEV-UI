@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AlAmalApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlAmal">
+
+        <!--
+        ╔══════════════════════════════════════════════════════════════════════════╗
+        ║  CHOISIR LE MODE : l'application démarre sur l'activité qui contient      ║
+        ║  le bloc <intent-filter> MAIN / LAUNCHER.                                 ║
+        ║    MODE COURS → bloc dans PlaygroundActivity                              ║
+        ║    MODE TP    → bloc dans TpActivity                                      ║
+        ║  Pour changer : COUPER le bloc (Ctrl+X) et le COLLER (Ctrl+V) dans        ║
+        ║  l'autre activité, puis ▶ Run. Un seul bloc LAUNCHER dans tout le fichier. ║
+        ╚══════════════════════════════════════════════════════════════════════════╝
+        -->
+
+        <!-- MODE COURS : Playground, écran vide pour tester les exemples du cours -->
+        <activity
+            android:name=".PlaygroundActivity"
+            android:exported="true"
+            android:label="@string/label_cours">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- MODE TP : menu des travaux pratiques -->
+        <activity
+            android:name=".TpActivity"
+            android:exported="true"
+            android:label="@string/label_tp">
+            <!-- (le bloc intent-filter MAIN / LAUNCHER se colle ici) -->
+        </activity>
+
+
+        <!-- ═════════════ TP : un écran vide par écran à réaliser (tp/sNN) ═════════════ -->
+
+        <!-- TP S01 -->
+        <activity
+            android:name=".tp.s01.MainActivity"
+            android:exported="true"
+            android:label="TP S01" />
+
+        <!-- TP S02 -->
+        <activity
+            android:name=".tp.s02.MainActivity"
+            android:exported="true"
+            android:label="TP S02" />
+
+        <!-- TP S03 -->
+        <activity
+            android:name=".tp.s03.MainActivity"
+            android:exported="true"
+            android:label="TP S03" />
+
+        <!-- TP S04 -->
+        <activity
+            android:name=".tp.s04.MainActivity"
+            android:exported="true"
+            android:label="TP S04" />
+
+        <!-- TP S05 -->
+        <activity
+            android:name=".tp.s05.MainActivity"
+            android:exported="true"
+            android:label="TP S05" />
+
+        <!-- TP S06 -->
+        <activity
+            android:name=".tp.s06.MainActivity"
+            android:exported="true"
+            android:label="TP S06" />
+
+        <!-- TP S07 -->
+        <activity
+            android:name=".tp.s07.MainActivity"
+            android:exported="true"
+            android:label="TP S07" />
+
+        <!-- TP S08 -->
+        <activity
+            android:name=".tp.s08.MainActivity"
+            android:exported="true"
+            android:label="TP S08" />
+
+        <!-- TP S09 -->
+        <activity
+            android:name=".tp.s09.MainActivity"
+            android:exported="true"
+            android:label="TP S09" />
+
+        <!-- TP S10 -->
+        <activity
+            android:name=".tp.s10.MainActivity"
+            android:exported="true"
+            android:label="TP S10" />
+
+        <!-- TP S11 -->
+        <activity
+            android:name=".tp.s11.MainActivity"
+            android:exported="true"
+            android:label="TP S11" />
+
+        <!-- TP S13 -->
+        <activity
+            android:name=".tp.s13.MainActivity"
+            android:exported="true"
+            android:label="TP S13" />
+
+        <!-- TP S14 -->
+        <activity
+            android:name=".tp.s14.MainActivity"
+            android:exported="true"
+            android:label="TP S14" />
+
+        <!-- TP S15 -->
+        <activity
+            android:name=".tp.s15.MainActivity"
+            android:exported="true"
+            android:label="TP S15" />
+
+        <!-- TP S16 -->
+        <activity
+            android:name=".tp.s16.MainActivity"
+            android:exported="true"
+            android:label="TP S16" />
+
+        <!-- TP S17 -->
+        <activity
+            android:name=".tp.s17.MainActivity"
+            android:exported="true"
+            android:label="TP S17" />
+
+        <!-- TP S18 -->
+        <activity
+            android:name=".tp.s18.MainActivity"
+            android:exported="true"
+            android:label="TP S18" />
+
+        <!-- TP S19 -->
+        <activity
+            android:name=".tp.s19.MainActivity"
+            android:exported="true"
+            android:label="TP S19" />
+
+        <!-- TP S20 -->
+        <activity
+            android:name=".tp.s20.MainActivity"
+            android:exported="true"
+            android:label="TP S20" />
+
+        <!-- TP S21 -->
+        <activity
+            android:name=".tp.s21.MainActivity"
+            android:exported="true"
+            android:label="TP S21" />
+
+        <!-- TP S22 -->
+        <activity
+            android:name=".tp.s22.MainActivity"
+            android:exported="true"
+            android:label="TP S22" />
+
+        <!-- TP S23 -->
+        <activity
+            android:name=".tp.s23.MainActivity"
+            android:exported="true"
+            android:label="TP S23" />
+        <activity
+            android:name=".tp.s23.DetailActivity"
+            android:exported="true"
+            android:label="TP S23" />
+
+        <!-- TP S24 -->
+        <activity
+            android:name=".tp.s24.AccueilActivity"
+            android:exported="true"
+            android:label="TP S24" />
+        <activity
+            android:name=".tp.s24.SalleActivity"
+            android:exported="true"
+            android:label="TP S24" />
+
+        <!-- TP S25 -->
+        <activity
+            android:name=".tp.s25.TournoiActivity"
+            android:exported="true"
+            android:label="TP S25" />
+        <activity
+            android:name=".tp.s25.JoueurActivity"
+            android:exported="true"
+            android:label="TP S25" />
+
+        <!-- TP S27 -->
+        <activity
+            android:name=".tp.s27.MainActivity"
+            android:exported="true"
+            android:label="TP S27" />
+
+        <!-- TP S28 -->
+        <activity
+            android:name=".tp.s28.MainActivity"
+            android:exported="true"
+            android:label="TP S28" />
+
+        <!-- TP S29 -->
+        <activity
+            android:name=".tp.s29.MainActivity"
+            android:exported="true"
+            android:label="TP S29" />
+
+        <!-- TP S30 -->
+        <activity
+            android:name=".tp.s30.MainActivity"
+            android:exported="true"
+            android:label="TP S30" />
+
+        <!-- TP S32 -->
+        <activity
+            android:name=".tp.s32.MainActivity"
+            android:exported="true"
+            android:label="TP S32" />
+
+        <!-- TP S33 -->
+        <activity
+            android:name=".tp.s33.MainActivity"
+            android:exported="true"
+            android:label="TP S33" />
+
+        <!-- TP S34 -->
+        <activity
+            android:name=".tp.s34.MainActivity"
+            android:exported="true"
+            android:label="TP S34" />
+
+        <!-- TP S35 -->
+        <activity
+            android:name=".tp.s35.MainActivity"
+            android:exported="true"
+            android:label="TP S35" />
+
+        <!-- TP S36 -->
+        <activity
+            android:name=".tp.s36.MainActivity"
+            android:exported="true"
+            android:label="TP S36" />
+
+        <!-- TP S37 -->
+        <activity
+            android:name=".tp.s37.MainActivity"
+            android:exported="true"
+            android:label="TP S37" />
+
+        <!-- TP S38 -->
+        <activity
+            android:name=".tp.s38.MainActivity"
+            android:exported="true"
+            android:label="TP S38" />
+
+        <!-- TP S39 -->
+        <activity
+            android:name=".tp.s39.MainActivity"
+            android:exported="true"
+            android:label="TP S39" />
+
+    </application>
+
+</manifest>

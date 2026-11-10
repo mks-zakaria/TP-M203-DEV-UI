@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Face 6 d'un dé (dessin vectoriel Al Amal) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:fillColor="#FF1F2D3D"
+        android:pathData="M20,2h60a18,18 0 0 1 18,18v60a18,18 0 0 1 -18,18h-60a18,18 0 0 1 -18,-18v-60a18,18 0 0 1 18,-18z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M21,7h58a14,14 0 0 1 14,14v58a14,14 0 0 1 -14,14h-58a14,14 0 0 1 -14,-14v-58a14,14 0 0 1 14,-14z" />
+    <path
+        android:fillColor="#FFC0392B"
+        android:pathData="M20,28a8,8 0 1,0 16,0a8,8 0 1,0 -16,0zM64,28a8,8 0 1,0 16,0a8,8 0 1,0 -16,0zM20,50a8,8 0 1,0 16,0a8,8 0 1,0 -16,0zM64,50a8,8 0 1,0 16,0a8,8 0 1,0 -16,0zM20,72a8,8 0 1,0 16,0a8,8 0 1,0 -16,0zM64,72a8,8 0 1,0 16,0a8,8 0 1,0 -16,0z" />
+</vector>

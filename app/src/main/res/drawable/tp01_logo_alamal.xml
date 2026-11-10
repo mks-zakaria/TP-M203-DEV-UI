@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Logo Al Amal : disque vert + icône Material Symbols « desktop_windows » (Google, licence Apache 2.0) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960">
+    <path
+        android:fillColor="@color/tp01_vert_alamal"
+        android:pathData="M40,480a440,440 0 1,0 880,0a440,440 0 1,0 -880,0z" />
+    <path
+        android:fillColor="@color/tp01_orange_alamal"
+        android:fillType="evenOdd"
+        android:pathData="M60,480a420,420 0 1,0 840,0a420,420 0 1,0 -840,0z M90,480a390,390 0 1,1 780,0a390,390 0 1,1 -780,0z" />
+    <group
+        android:pivotX="480"
+        android:pivotY="-480"
+        android:scaleX="0.55"
+        android:scaleY="0.55"
+        android:translateY="960">
+        <path
+            android:fillColor="@color/tp01_white"
+            android:pathData="M320-120v-80h80v-80H160q-33 0-56.5-23.5T80-360v-400q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v400q0 33-23.5 56.5T800-280H560v80h80v80H320ZM160-360h640v-400H160v400Zm0 0v-400 400Z" />
+    </group>
+</vector>

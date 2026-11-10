@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icône « signal_wifi_0_bar » (Material Symbols, Google, licence Apache 2.0) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960">
+    <group android:translateY="960">
+        <path
+            android:fillColor="#FF1B7F3B"
+            android:pathData="M480-120 0-600q99-94 221-147t259-53q137 0 259 53t221 147L480-120Zm0-82 392-392q-87-68-184.5-107T480-740q-110 0-207.5 39T88-594l392 392Z" />
+    </group>
+</vector>
