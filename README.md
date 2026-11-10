@@ -57,7 +57,16 @@ L'application démarre sur l'activité qui contient le bloc **MAIN / LAUNCHER** 
 
 Conseil Git : enregistrez votre travail après chaque TP (`git add .` puis `git commit -m "TP S05 terminé"`).
 
-## 5. Les TP
+## 5. Les corrigés (après le TP)
+
+Le corrigé de chaque TP est dans une **branche** du dépôt : `corrige-s01`, `corrige-s02`… (le formateur vous dit
+quand elle est disponible).
+
+- Sur GitHub : menu **main ▾** (en haut à gauche) › choisissez `corrige-s05` pour lire les fichiers en ligne.
+- Dans Android Studio (après avoir enregistré votre travail avec `git commit`) :
+  `git fetch` puis `git checkout corrige-s05` ; pour revenir à votre travail : `git checkout main`.
+
+## 6. Les TP
 
 | Séance | TP | Où |
 |---|---|---|

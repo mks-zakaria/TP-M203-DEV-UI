@@ -24,6 +24,8 @@ val SEANCES_TP = listOf<Pair<String, Class<*>>>(
     Pair("S21 · L'affiche animée du tournoi", ma.ofppt.ista.alamal.tp.s21.MainActivity::class.java),
     Pair("S22 · Le dé du tournoi", ma.ofppt.ista.alamal.tp.s22.MainActivity::class.java),
     Pair("S23 · Liste des postes animée", ma.ofppt.ista.alamal.tp.s23.MainActivity::class.java),
+    Pair("S24 · Explode, Slide ou Fade ?", ma.ofppt.ista.alamal.tp.s24.AccueilActivity::class.java),
+    Pair("S25 · Mini-projet « Tournoi du samedi »", ma.ofppt.ista.alamal.tp.s25.TournoiActivity::class.java),
     Pair("S27 · Crossfade entre deux vues", ma.ofppt.ista.alamal.tp.s27.MainActivity::class.java),
     Pair("S28 · Panneau d'animations sur une carte", ma.ofppt.ista.alamal.tp.s28.MainActivity::class.java),
     Pair("S29 · Révéler et retourner la carte fidélité", ma.ofppt.ista.alamal.tp.s29.MainActivity::class.java),
