@@ -1,0 +1,28 @@
+<resources>
+    <!-- Thème clair, barre d'application verte Al Amal (titre de l'écran en haut) -->
+    <style name="tp11_Base.Theme.TPS11" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/tp11_vert_ofppt</item>
+        <item name="colorOnPrimary">@color/tp11_white</item>
+        <item name="colorPrimaryContainer">@color/tp11_vert_clair</item>
+        <item name="colorSecondary">@color/tp11_vert_ofppt</item>
+        <item name="actionBarTheme">@style/tp11_BarreAlAmal</item>
+        <item name="actionBarStyle">@style/tp11_BarreAlAmal.Style</item>
+    </style>
+
+    <style name="tp11_BarreAlAmal.Style" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/tp11_vert_ofppt</item>
+        <item name="titleTextStyle">@style/tp11_BarreAlAmal.Titre</item>
+    </style>
+
+    <style name="tp11_BarreAlAmal.Titre" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/tp11_white</item>
+    </style>
+
+    <style name="tp11_BarreAlAmal" parent="ThemeOverlay.Material3.ActionBar">
+        <item name="colorSurface">@color/tp11_vert_ofppt</item>
+        <item name="colorOnSurface">@color/tp11_white</item>
+        <item name="colorControlNormal">@color/tp11_white</item>
+    </style>
+
+    <style name="tp11_Theme.TPS11" parent="tp11_Base.Theme.TPS11" />
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <!-- Thème clair, barre d'application verte Al Amal (titre de l'écran en haut) -->
+    <style name="tp02_Base.Theme.TPS02" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/tp02_vert_alamal</item>
+        <item name="colorOnPrimary">@color/tp02_white</item>
+        <item name="colorPrimaryContainer">@color/tp02_vert_clair</item>
+        <item name="colorOnPrimaryContainer">@color/tp02_vert_fonce</item>
+        <item name="colorSecondary">@color/tp02_orange_alamal</item>
+        <item name="actionBarTheme">@style/tp02_BarreAlAmal</item>
+        <item name="actionBarStyle">@style/tp02_BarreAlAmal.Style</item>
+    </style>
+
+    <style name="tp02_BarreAlAmal.Style" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/tp02_vert_alamal</item>
+        <item name="titleTextStyle">@style/tp02_BarreAlAmal.Titre</item>
+    </style>
+
+    <style name="tp02_BarreAlAmal.Titre" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/tp02_white</item>
+    </style>
+
+    <style name="tp02_BarreAlAmal" parent="ThemeOverlay.Material3.ActionBar">
+        <item name="colorSurface">@color/tp02_vert_alamal</item>
+        <item name="colorOnSurface">@color/tp02_white</item>        <item name="colorOnSurfaceVariant">@color/tp02_white</item>
+        <item name="colorControlNormal">@color/tp02_white</item>
+    </style>
+
+    <style name="tp02_Theme.TPS02" parent="tp02_Base.Theme.TPS02" />
+</resources>

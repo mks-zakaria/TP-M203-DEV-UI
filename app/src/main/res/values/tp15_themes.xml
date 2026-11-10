@@ -1,0 +1,6 @@
+<resources>
+    <!-- Thème de départ (Material 3, sans barre d'action) : à compléter avec les rôles de couleur -->
+    <style name="tp15_Theme.TpS15" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

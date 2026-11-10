@@ -1,0 +1,34 @@
+<resources>
+    <!-- Thème clair avec barre d'action : le titre de l'étape s'affiche en haut -->
+    <style name="tp22_Base.Theme.TPS22" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/tp22_vert_ofppt</item>
+        <item name="colorOnPrimary">@color/tp22_white</item>
+        <item name="colorSecondary">@color/tp22_vert_ofppt</item>
+        <item name="colorSecondaryContainer">@color/tp22_vert_clair</item>
+        <item name="actionBarStyle">@style/tp22_BarreAlAmal</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Textes et boutons lisibles par défaut (20sp / 18sp) -->
+        <item name="android:textViewStyle">@style/tp22_TexteAlAmal</item>
+        <item name="materialButtonStyle">@style/tp22_BoutonAlAmal</item>
+    </style>
+
+    <style name="tp22_TexteAlAmal" parent="android:Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/tp22_bleu_nuit</item>
+    </style>
+
+    <style name="tp22_BoutonAlAmal" parent="Widget.Material3.Button">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="tp22_BarreAlAmal" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/tp22_vert_ofppt</item>
+        <item name="titleTextStyle">@style/tp22_TitreBarre</item>
+    </style>
+
+    <style name="tp22_TitreBarre" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/tp22_white</item>
+    </style>
+
+    <style name="tp22_Theme.TPS22" parent="tp22_Base.Theme.TPS22" />
+</resources>

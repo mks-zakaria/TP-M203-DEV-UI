@@ -1,0 +1,40 @@
+<resources>
+    <!-- Thème clair avec barre d'action : le titre de l'étape s'affiche en haut -->
+    <style name="tp16_Base.Theme.TPS16" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/tp16_vert_ofppt</item>
+        <item name="colorOnPrimary">@color/tp16_white</item>
+        <item name="colorSecondary">@color/tp16_vert_ofppt</item>
+        <item name="colorSecondaryContainer">@color/tp16_vert_clair</item>
+        <item name="actionBarStyle">@style/tp16_BarreAlAmal</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Textes et boutons lisibles par défaut (20sp / 18sp) -->
+        <item name="android:textViewStyle">@style/tp16_TexteAlAmal</item>
+        <item name="materialButtonStyle">@style/tp16_BoutonAlAmal</item>
+    </style>
+
+    <style name="tp16_TexteAlAmal" parent="android:Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/tp16_bleu_nuit</item>
+    </style>
+
+    <style name="tp16_BoutonAlAmal" parent="Widget.Material3.Button">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="tp16_BarreAlAmal" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/tp16_vert_ofppt</item>
+        <item name="titleTextStyle">@style/tp16_TitreBarre</item>
+    </style>
+
+    <style name="tp16_TitreBarre" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/tp16_white</item>
+    </style>
+
+    <style name="tp16_Theme.TPS16" parent="tp16_Base.Theme.TPS16" />
+
+    <!-- Variante sans barre d'action (écrans avec Toolbar) -->
+    <style name="tp16_Theme.TPS16.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+    <!-- Thème clair avec barre d'action : le titre de l'étape s'affiche en haut -->
+    <style name="tp24_Base.Theme.TPS24" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/tp24_vert_ofppt</item>
+        <item name="colorOnPrimary">@color/tp24_white</item>
+        <item name="colorSecondary">@color/tp24_vert_ofppt</item>
+        <item name="colorSecondaryContainer">@color/tp24_vert_clair</item>
+        <item name="actionBarStyle">@style/tp24_BarreAlAmal</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Textes et boutons lisibles par défaut (20sp / 18sp) -->
+        <item name="android:textViewStyle">@style/tp24_TexteAlAmal</item>
+        <item name="materialButtonStyle">@style/tp24_BoutonAlAmal</item>
+    </style>
+
+    <style name="tp24_TexteAlAmal" parent="android:Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/tp24_bleu_nuit</item>
+    </style>
+
+    <style name="tp24_BoutonAlAmal" parent="Widget.Material3.Button">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="tp24_BarreAlAmal" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/tp24_vert_ofppt</item>
+        <item name="titleTextStyle">@style/tp24_TitreBarre</item>
+    </style>
+
+    <style name="tp24_TitreBarre" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/tp24_white</item>
+    </style>
+
+    <style name="tp24_Theme.TPS24" parent="tp24_Base.Theme.TPS24" />
+
+
+    <!-- Bouton blanc large des trois salles -->
+    <style name="tp24_BoutonSalle" parent="Widget.Material3.Button">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/tp24_black</item>
+        <item name="backgroundTint">@color/tp24_white</item>
+    </style>
+
+    <!-- Titre blanc d'une salle -->
+    <style name="tp24_TitreSalle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/tp24_white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

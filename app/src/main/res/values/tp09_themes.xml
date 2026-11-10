@@ -1,0 +1,33 @@
+<resources>
+    <!-- Thème clair avec barre d'action verte (titre de l'application en haut) -->
+    <style name="tp09_Base.Theme.TPS09" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/tp09_vert_ofppt</item>
+        <item name="colorOnPrimary">@color/tp09_white</item>
+        <item name="colorSecondary">@color/tp09_vert_ofppt</item>
+        <item name="colorSecondaryContainer">@color/tp09_vert_clair</item>
+        <item name="actionBarStyle">@style/tp09_BarreAlAmal</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textViewStyle">@style/tp09_TexteAlAmal</item>
+        <item name="materialButtonStyle">@style/tp09_BoutonAlAmal</item>
+    </style>
+
+    <style name="tp09_TexteAlAmal" parent="android:Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/tp09_bleu_nuit</item>
+    </style>
+
+    <style name="tp09_BoutonAlAmal" parent="Widget.Material3.Button">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="tp09_BarreAlAmal" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/tp09_vert_ofppt</item>
+        <item name="titleTextStyle">@style/tp09_TitreBarre</item>
+    </style>
+
+    <style name="tp09_TitreBarre" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/tp09_white</item>
+    </style>
+
+    <style name="tp09_Theme.TPS09" parent="tp09_Base.Theme.TPS09" />
+</resources>

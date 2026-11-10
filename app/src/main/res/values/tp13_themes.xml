@@ -1,0 +1,16 @@
+<resources>
+    <!-- Thème de l'application : appliqué dans AndroidManifest.xml -->
+    <!-- TP S13 : ajoutez ici les couleurs du thème (étape 1) -->
+    <style name="tp13_Theme.TpS13" parent="Theme.Material3.Light">
+    </style>
+
+    <!-- Fourni : barre de titre violette avec un titre blanc -->
+    <style name="tp13_BarreTp" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/tp13_violet</item>
+        <item name="titleTextStyle">@style/tp13_TitreBarreTp</item>
+    </style>
+
+    <style name="tp13_TitreBarreTp" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/tp13_white</item>
+    </style>
+</resources>

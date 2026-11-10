@@ -1,0 +1,8 @@
+<resources>
+    <!-- Thème vert, sans barre de titre (l'en-tête est dans le layout) -->
+    <style name="tp14_Theme.TpS14" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/tp14_vert_ofppt</item>
+        <item name="android:colorBackground">@color/tp14_gris_clair</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

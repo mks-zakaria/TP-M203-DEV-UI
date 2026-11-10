@@ -1,0 +1,28 @@
+<resources>
+    <!-- Thème clair avec barre d'application rouge -->
+    <style name="tp04_Base.Theme.TPS04" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/tp04_rouge_pizza</item>
+        <item name="colorOnPrimary">@color/tp04_white</item>
+        <item name="colorSecondary">@color/tp04_orange_pizza</item>
+        <item name="actionBarTheme">@style/tp04_BarrePizza</item>
+        <item name="actionBarStyle">@style/tp04_BarrePizza.Style</item>
+    </style>
+
+    <style name="tp04_BarrePizza.Style" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/tp04_rouge_pizza</item>
+        <item name="titleTextStyle">@style/tp04_BarrePizza.Titre</item>
+    </style>
+
+    <style name="tp04_BarrePizza.Titre" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/tp04_white</item>
+    </style>
+
+    <style name="tp04_BarrePizza" parent="ThemeOverlay.Material3.ActionBar">
+        <item name="colorSurface">@color/tp04_rouge_pizza</item>
+        <item name="colorOnSurface">@color/tp04_white</item>
+        <item name="colorOnSurfaceVariant">@color/tp04_white</item>
+        <item name="colorControlNormal">@color/tp04_white</item>
+    </style>
+
+    <style name="tp04_Theme.TPS04" parent="tp04_Base.Theme.TPS04" />
+</resources>

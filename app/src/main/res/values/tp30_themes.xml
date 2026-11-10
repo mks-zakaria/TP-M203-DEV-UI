@@ -1,0 +1,34 @@
+<resources>
+    <!-- Thème de l'application (manifeste : <application android:theme>) -->
+    <style name="tp30_Base.Theme.TPS30" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/tp30_vert_ofppt</item>
+        <item name="colorOnPrimary">@color/tp30_white</item>
+        <item name="colorSecondary">@color/tp30_vert_ofppt</item>
+        <item name="colorSecondaryContainer">@color/tp30_vert_clair</item>
+        <item name="actionBarStyle">@style/tp30_BarreAlAmal</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Textes et boutons lisibles par défaut (20sp / 18sp) -->
+        <item name="android:textViewStyle">@style/tp30_TexteAlAmal</item>
+        <item name="materialButtonStyle">@style/tp30_BoutonAlAmal</item>
+    </style>
+
+    <style name="tp30_TexteAlAmal" parent="android:Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/tp30_bleu_nuit</item>
+    </style>
+
+    <style name="tp30_BoutonAlAmal" parent="Widget.Material3.Button">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="tp30_BarreAlAmal" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/tp30_vert_ofppt</item>
+        <item name="titleTextStyle">@style/tp30_TitreBarre</item>
+    </style>
+
+    <style name="tp30_TitreBarre" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/tp30_white</item>
+    </style>
+
+    <style name="tp30_Theme.TPS30" parent="tp30_Base.Theme.TPS30" />
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <!-- Thème de l'application (manifeste : <application android:theme>) -->
+    <style name="tp28_Base.Theme.TPS28" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/tp28_vert_ofppt</item>
+        <item name="colorOnPrimary">@color/tp28_white</item>
+        <item name="colorSecondary">@color/tp28_vert_ofppt</item>
+        <item name="colorSecondaryContainer">@color/tp28_vert_clair</item>
+        <item name="actionBarStyle">@style/tp28_BarreAlAmal</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Textes et boutons lisibles par défaut (20sp / 18sp) -->
+        <item name="android:textViewStyle">@style/tp28_TexteAlAmal</item>
+        <item name="materialButtonStyle">@style/tp28_BoutonAlAmal</item>
+    </style>
+
+    <style name="tp28_TexteAlAmal" parent="android:Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/tp28_bleu_nuit</item>
+    </style>
+
+    <style name="tp28_BoutonAlAmal" parent="Widget.Material3.Button">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="tp28_BarreAlAmal" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/tp28_vert_ofppt</item>
+        <item name="titleTextStyle">@style/tp28_TitreBarre</item>
+    </style>
+
+    <style name="tp28_TitreBarre" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/tp28_white</item>
+    </style>
+
+    <style name="tp28_Theme.TPS28" parent="tp28_Base.Theme.TPS28" />
+
+    <!-- Un bouton d'animation : toute la largeur, 8dp au-dessus -->
+    <style name="tp28_BoutonAnim" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+</resources>

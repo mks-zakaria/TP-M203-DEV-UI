@@ -1,0 +1,29 @@
+<resources>
+    <!-- Thème clair avec barre d'application verte Al Amal -->
+    <style name="tp05_Base.Theme.TPS05" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/tp05_vert_alamal</item>
+        <item name="colorOnPrimary">@color/tp05_white</item>
+        <item name="colorSecondary">#FFE67E22</item>
+        <item name="android:windowBackground">@color/tp05_gris_fond</item>
+        <item name="actionBarTheme">@style/tp05_BarreAlAmal</item>
+        <item name="actionBarStyle">@style/tp05_BarreAlAmal.Style</item>
+    </style>
+
+    <style name="tp05_BarreAlAmal.Style" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/tp05_vert_alamal</item>
+        <item name="titleTextStyle">@style/tp05_BarreAlAmal.Titre</item>
+    </style>
+
+    <style name="tp05_BarreAlAmal.Titre" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/tp05_white</item>
+    </style>
+
+    <style name="tp05_BarreAlAmal" parent="ThemeOverlay.Material3.ActionBar">
+        <item name="colorSurface">@color/tp05_vert_alamal</item>
+        <item name="colorOnSurface">@color/tp05_white</item>
+        <item name="colorOnSurfaceVariant">@color/tp05_white</item>
+        <item name="colorControlNormal">@color/tp05_white</item>
+    </style>
+
+    <style name="tp05_Theme.TPS05" parent="tp05_Base.Theme.TPS05" />
+</resources>

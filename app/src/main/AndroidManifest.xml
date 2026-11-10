@@ -51,229 +51,268 @@
         <activity
             android:name=".tp.s01.MainActivity"
             android:exported="true"
-            android:label="TP S01" />
+            android:label="TP S01"
+            android:theme="@style/tp01_Theme.TPS01" />
 
         <!-- TP S02 -->
         <activity
             android:name=".tp.s02.MainActivity"
             android:exported="true"
-            android:label="TP S02" />
+            android:label="TP S02"
+            android:theme="@style/tp02_Theme.TPS02" />
 
         <!-- TP S03 -->
         <activity
             android:name=".tp.s03.MainActivity"
             android:exported="true"
-            android:label="TP S03" />
+            android:label="TP S03"
+            android:theme="@style/tp03_Theme.TPS03" />
 
         <!-- TP S04 -->
         <activity
             android:name=".tp.s04.MainActivity"
             android:exported="true"
-            android:label="TP S04" />
+            android:label="TP S04"
+            android:theme="@style/tp04_Theme.TPS04" />
 
         <!-- TP S05 -->
         <activity
             android:name=".tp.s05.MainActivity"
             android:exported="true"
-            android:label="TP S05" />
+            android:label="TP S05"
+            android:theme="@style/tp05_Theme.TPS05" />
 
         <!-- TP S06 -->
         <activity
             android:name=".tp.s06.MainActivity"
             android:exported="true"
-            android:label="TP S06" />
+            android:label="TP S06"
+            android:theme="@style/tp06_Theme.TPS06" />
 
         <!-- TP S07 -->
         <activity
             android:name=".tp.s07.MainActivity"
             android:exported="true"
-            android:label="TP S07" />
+            android:label="TP S07"
+            android:theme="@style/tp07_Theme.TPS07" />
 
         <!-- TP S08 -->
         <activity
             android:name=".tp.s08.MainActivity"
             android:exported="true"
-            android:label="TP S08" />
+            android:label="TP S08"
+            android:theme="@style/tp08_Theme.TPS08" />
 
         <!-- TP S09 -->
         <activity
             android:name=".tp.s09.MainActivity"
             android:exported="true"
-            android:label="TP S09" />
+            android:label="TP S09"
+            android:theme="@style/tp09_Theme.TPS09" />
 
         <!-- TP S10 -->
         <activity
             android:name=".tp.s10.MainActivity"
             android:exported="true"
-            android:label="TP S10" />
+            android:label="TP S10"
+            android:theme="@style/tp10_Theme.TPS10" />
 
         <!-- TP S11 -->
         <activity
             android:name=".tp.s11.MainActivity"
             android:exported="true"
-            android:label="TP S11" />
+            android:label="TP S11"
+            android:theme="@style/tp11_Theme.TPS11" />
 
         <!-- TP S13 -->
         <activity
             android:name=".tp.s13.MainActivity"
             android:exported="true"
-            android:label="TP S13" />
+            android:label="TP S13"
+            android:theme="@style/tp13_Theme.TpS13" />
 
         <!-- TP S14 -->
         <activity
             android:name=".tp.s14.MainActivity"
             android:exported="true"
-            android:label="TP S14" />
+            android:label="TP S14"
+            android:theme="@style/tp14_Theme.TpS14" />
 
         <!-- TP S15 -->
         <activity
             android:name=".tp.s15.MainActivity"
             android:exported="true"
-            android:label="TP S15" />
+            android:label="TP S15"
+            android:theme="@style/tp15_Theme.TpS15" />
 
         <!-- TP S16 -->
         <activity
             android:name=".tp.s16.MainActivity"
             android:exported="true"
-            android:label="TP S16" />
+            android:label="TP S16"
+            android:theme="@style/tp16_Theme.TPS16" />
 
         <!-- TP S17 -->
         <activity
             android:name=".tp.s17.MainActivity"
             android:exported="true"
-            android:label="TP S17" />
+            android:label="TP S17"
+            android:theme="@style/tp17_Theme.TPS17" />
 
         <!-- TP S18 -->
         <activity
             android:name=".tp.s18.MainActivity"
             android:exported="true"
-            android:label="TP S18" />
+            android:label="TP S18"
+            android:theme="@style/tp18_Theme.TPS18" />
 
         <!-- TP S19 -->
         <activity
             android:name=".tp.s19.MainActivity"
             android:exported="true"
-            android:label="TP S19" />
+            android:label="TP S19"
+            android:theme="@style/tp19_Theme.TPS19.NoActionBar" />
 
         <!-- TP S20 -->
         <activity
             android:name=".tp.s20.MainActivity"
             android:exported="true"
-            android:label="TP S20" />
+            android:label="TP S20"
+            android:theme="@style/tp20_Theme.TPS20" />
 
         <!-- TP S21 -->
         <activity
             android:name=".tp.s21.MainActivity"
             android:exported="true"
-            android:label="TP S21" />
+            android:label="TP S21"
+            android:theme="@style/tp21_Theme.TPS21" />
 
         <!-- TP S22 -->
         <activity
             android:name=".tp.s22.MainActivity"
             android:exported="true"
-            android:label="TP S22" />
+            android:label="TP S22"
+            android:theme="@style/tp22_Theme.TPS22" />
 
         <!-- TP S23 -->
         <activity
             android:name=".tp.s23.MainActivity"
             android:exported="true"
-            android:label="TP S23" />
+            android:label="TP S23"
+            android:theme="@style/tp23_Theme.TPS23" />
         <activity
             android:name=".tp.s23.DetailActivity"
             android:exported="true"
-            android:label="TP S23" />
+            android:label="TP S23"
+            android:theme="@style/tp23_Theme.TPS23" />
 
         <!-- TP S24 -->
         <activity
             android:name=".tp.s24.AccueilActivity"
             android:exported="true"
-            android:label="TP S24" />
+            android:label="TP S24"
+            android:theme="@style/tp24_Theme.TPS24" />
         <activity
             android:name=".tp.s24.SalleActivity"
             android:exported="true"
-            android:label="TP S24" />
+            android:label="TP S24"
+            android:theme="@style/tp24_Theme.TPS24" />
 
         <!-- TP S25 -->
         <activity
             android:name=".tp.s25.TournoiActivity"
             android:exported="true"
-            android:label="TP S25" />
+            android:label="TP S25"
+            android:theme="@style/tp25_Theme.TPS25" />
         <activity
             android:name=".tp.s25.JoueurActivity"
             android:exported="true"
-            android:label="TP S25" />
+            android:label="TP S25"
+            android:theme="@style/tp25_Theme.TPS25" />
 
         <!-- TP S27 -->
         <activity
             android:name=".tp.s27.MainActivity"
             android:exported="true"
-            android:label="TP S27" />
+            android:label="TP S27"
+            android:theme="@style/tp27_Theme.TPS27" />
 
         <!-- TP S28 -->
         <activity
             android:name=".tp.s28.MainActivity"
             android:exported="true"
-            android:label="TP S28" />
+            android:label="TP S28"
+            android:theme="@style/tp28_Theme.TPS28" />
 
         <!-- TP S29 -->
         <activity
             android:name=".tp.s29.MainActivity"
             android:exported="true"
-            android:label="TP S29" />
+            android:label="TP S29"
+            android:theme="@style/tp29_Theme.TPS29" />
 
         <!-- TP S30 -->
         <activity
             android:name=".tp.s30.MainActivity"
             android:exported="true"
-            android:label="TP S30" />
+            android:label="TP S30"
+            android:theme="@style/tp30_Theme.TPS30" />
 
         <!-- TP S32 -->
         <activity
             android:name=".tp.s32.MainActivity"
             android:exported="true"
-            android:label="TP S32" />
+            android:label="TP S32"
+            android:theme="@style/tp32_Theme.TPS32" />
 
         <!-- TP S33 -->
         <activity
             android:name=".tp.s33.MainActivity"
             android:exported="true"
-            android:label="TP S33" />
+            android:label="TP S33"
+            android:theme="@style/tp33_Theme.TPS33" />
 
         <!-- TP S34 -->
         <activity
             android:name=".tp.s34.MainActivity"
             android:exported="true"
-            android:label="TP S34" />
+            android:label="TP S34"
+            android:theme="@style/tp34_Theme.TPS34" />
 
         <!-- TP S35 -->
         <activity
             android:name=".tp.s35.MainActivity"
             android:exported="true"
-            android:label="TP S35" />
+            android:label="TP S35"
+            android:theme="@style/tp35_Theme.TPS35" />
 
         <!-- TP S36 -->
         <activity
             android:name=".tp.s36.MainActivity"
             android:exported="true"
-            android:label="TP S36" />
+            android:label="TP S36"
+            android:theme="@style/tp36_Theme.TPS36" />
 
         <!-- TP S37 -->
         <activity
             android:name=".tp.s37.MainActivity"
             android:exported="true"
-            android:label="TP S37" />
+            android:label="TP S37"
+            android:theme="@style/tp37_Theme.TPS37" />
 
         <!-- TP S38 -->
         <activity
             android:name=".tp.s38.MainActivity"
             android:exported="true"
-            android:label="TP S38" />
+            android:label="TP S38"
+            android:theme="@style/tp38_Theme.TPS38" />
 
         <!-- TP S39 -->
         <activity
             android:name=".tp.s39.MainActivity"
             android:exported="true"
-            android:label="TP S39" />
+            android:label="TP S39"
+            android:theme="@style/tp39_Theme.TPS39" />
 
     </application>
 
