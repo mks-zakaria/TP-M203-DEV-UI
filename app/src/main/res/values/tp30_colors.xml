@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp30_black">#FF000000</color>
+    <color name="tp30_white">#FFFFFFFF</color>
+    <color name="tp30_vert_ofppt">#FF1B7F3B</color>
+    <color name="tp30_vert_clair">#FFD7F0DE</color>
+    <color name="tp30_orange">#FFE67E22</color>
+    <color name="tp30_orange_fonce">#FFB35400</color>
+    <color name="tp30_jaune">#FFF4D03F</color>
+    <color name="tp30_violet">#FF6C3483</color>
+    <color name="tp30_bleu_nuit">#FF1F2D3D</color>
+    <color name="tp30_gris_clair">#FFF2F4F5</color>
+    <color name="tp30_gris">#FF95A5A6</color>
+    <color name="tp30_rouge">#FFC0392B</color>
+</resources>

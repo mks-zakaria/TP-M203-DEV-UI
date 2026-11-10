@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp10_black">#FF000000</color>
+    <color name="tp10_white">#FFFFFFFF</color>
+    <color name="tp10_vert_ofppt">#FF1B7F3B</color>
+    <color name="tp10_vert_clair">#FFD7F0DE</color>
+    <color name="tp10_rouge">#FFC0392B</color>
+    <color name="tp10_bleu_nuit">#FF1F2D3D</color>
+    <color name="tp10_gris">#FF6B7785</color>
+</resources>

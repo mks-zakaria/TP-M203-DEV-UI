@@ -7,8 +7,9 @@ Projet Android Studio des stagiaires (OFPPT · ISTA Khouribga · DEVOM). **Un se
 - **MODE TP** : un bouton par TP. Chaque écran du TP existe déjà mais il est **vide** : c'est à vous de le
   construire en suivant l'énoncé que donne le formateur.
 
-Toutes les **images** du module sont déjà dans le projet (dossiers `res/drawable…`, préfixes `sNN_` pour le cours
-et `tpNN_` pour les TP). Tout le reste (layouts, textes, code), c'est vous qui l'écrivez.
+Déjà fournis : les **images** du module (dossiers `res/drawable…`, préfixes `sNN_` pour le cours et `tpNN_` pour
+les TP) et, pour chaque TP, ses **textes, couleurs et dimensions** (`res/values/tpNN_strings.xml`, `tpNN_colors.xml`,
+`tpNN_dimens.xml`). Les layouts et le code Kotlin, c'est vous qui les écrivez.
 
 ## 1. Récupérer le projet (une seule fois, à la maison, avec Internet)
 
@@ -48,9 +49,10 @@ L'application démarre sur l'activité qui contient le bloc **MAIN / LAUNCHER** 
 
 1. Passez en **MODE TP**, lancez ▶ et touchez le TP du jour : l'écran affiche « TP SNN — … : à vous de jouer ».
 2. Vos fichiers : le dossier `app/src/main/java/ma/ofppt/ista/alamal/tp/sNN/` (les écrans sont déjà créés et
-   déclarés) et les layouts `res/layout/tpNN_….xml`. Créez vos propres textes, couleurs et layouts avec le préfixe
-   `tpNN_` (exemple : `tp05_strings.xml`, `tp05_ligne_poste.xml`).
-3. Les images du TP sont fournies : `res/drawable…/tpNN_…`.
+   déclarés) et les layouts `res/layout/tpNN_….xml`. Si vous créez un nouveau fichier de ressource, donnez-lui le
+   préfixe `tpNN_` (exemple : `res/layout/tp05_ligne_poste.xml`).
+3. Fournis : les images `res/drawable…/tpNN_…`, les textes `@string/tpNN_…`, les couleurs `@color/tpNN_…`
+   (et, pour S14, le dossier `traductions/`).
 4. Ne renommez pas les écrans fournis.
 
 Conseil Git : enregistrez votre travail après chaque TP (`git add .` puis `git commit -m "TP S05 terminé"`).

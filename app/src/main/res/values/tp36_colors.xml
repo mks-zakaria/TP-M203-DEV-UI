@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp36_black">#FF000000</color>
+    <color name="tp36_white">#FFFFFFFF</color>
+    <color name="tp36_vert_ofppt">#FF1B7F3B</color>
+    <color name="tp36_vert_clair">#FFD7F0DE</color>
+    <color name="tp36_orange">#FFE67E22</color>
+    <color name="tp36_bleu_nuit">#FF1F2A44</color>
+    <color name="tp36_gris_clair">#FFF2F4F5</color>
+</resources>

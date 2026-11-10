@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp16_black">#FF000000</color>
+    <color name="tp16_white">#FFFFFFFF</color>
+    <color name="tp16_vert_ofppt">#FF1B7F3B</color>
+    <color name="tp16_vert_clair">#FFD7F0DE</color>
+    <color name="tp16_orange">#FFE67E22</color>
+    <color name="tp16_bleu_nuit">#FF1F2D3D</color>
+    <color name="tp16_gris_clair">#FFF2F4F5</color>
+    <color name="tp16_rouge">#FFC0392B</color>
+    <!-- TP S16 : le terrain et la boule -->
+    <color name="tp16_vert_terrain">#FF0ED145</color>
+    <color name="tp16_rouge_boule">#FFE53935</color>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="tp34_app_name">TP S34</string>
+    <string name="tp34_titre">Cybercafé Al Amal</string>
+    <string name="tp34_photo_salle">La salle des postes</string>
+    <string name="tp34_badge">6 postes</string>
+    <string name="tp34_horaires">9 h - 23 h</string>
+    <string name="tp34_wifi">Wi-Fi</string>
+    <string name="tp34_plan">Plan de la salle</string>
+    <string name="tp34_poste">Poste %1$d</string>
+    <string name="tp34_legende">Vert : libre · Orange : occupé</string>
+</resources>

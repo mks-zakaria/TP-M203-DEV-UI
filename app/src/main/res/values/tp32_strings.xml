@@ -1,0 +1,16 @@
+<resources>
+    <string name="tp32_app_name">TP S32</string>
+    <string name="tp32_titre">Cybercafé Al Amal</string>
+    <string name="tp32_slogan">Internet, jeux et impression à Khouribga</string>
+    <string name="tp32_photo_salle">La salle des postes du cybercafé</string>
+    <string name="tp32_titre_horaires">Horaires</string>
+    <string-array name="tp32_horaires">
+        <item>Lundi - vendredi : 9 h - 23 h</item>
+        <item>Samedi : 10 h - 23 h</item>
+        <item>Dimanche : 14 h - 22 h</item>
+    </string-array>
+    <string name="tp32_ouvert">Le cybercafé est OUVERT</string>
+    <string name="tp32_ferme">Le cybercafé est FERMÉ</string>
+    <string name="tp32_bouton_fermer">Fermer le cybercafé</string>
+    <string name="tp32_bouton_ouvrir">Ouvrir le cybercafé</string>
+</resources>

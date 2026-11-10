@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp11_black">#FF000000</color>
+    <color name="tp11_white">#FFFFFFFF</color>
+    <color name="tp11_vert_ofppt">#FF1B7F3B</color>
+    <color name="tp11_vert_clair">#FFD7F0DE</color>
+    <color name="tp11_bleu_nuit">#FF1F2D3D</color>
+</resources>

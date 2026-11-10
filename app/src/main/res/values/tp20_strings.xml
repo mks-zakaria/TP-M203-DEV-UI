@@ -1,0 +1,7 @@
+<resources>
+    <string name="tp20_app_name">TP S20</string>
+    <string name="tp20_nom_cyber">Cybercafé Al Amal</string>
+    <string name="tp20_ouvert">OUVERT</string>
+    <string name="tp20_session">Session de Hayat : %1$d min</string>
+    <string name="tp20_demarrer_session">Démarrer une session de 60 min</string>
+</resources>

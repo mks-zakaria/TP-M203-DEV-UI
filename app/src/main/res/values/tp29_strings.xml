@@ -1,0 +1,13 @@
+<resources>
+    <string name="tp29_app_name">TP S29</string>
+    <string name="tp29_titre">Programme fidélité Al Amal</string>
+    <string name="tp29_sous_titre">Votre carte : touchez-la pour la retourner</string>
+    <string name="tp29_voir_carte">Voir ma carte</string>
+    <string name="tp29_fermer">Fermer</string>
+    <string name="tp29_recto_titre">CARTE FIDÉLITÉ</string>
+    <string name="tp29_recto_nom">Hayat Benali</string>
+    <string name="tp29_recto_points">12 points</string>
+    <string name="tp29_verso_titre">Mes récompenses</string>
+    <string name="tp29_verso_texte">10 points : 30 minutes offertes\n20 points : 1 heure offerte\n50 points : 1 tournoi gratuit</string>
+    <string name="tp29_verso_bas">Encore 8 points pour 1 heure offerte</string>
+</resources>

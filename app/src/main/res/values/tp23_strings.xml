@@ -1,0 +1,19 @@
+<resources>
+    <string name="tp23_app_name">TP S23</string>
+    <string name="tp23_titre_liste">Touchez un poste :</string>
+    <string name="tp23_poste_gamer">Poste 7 · Gamer</string>
+    <string name="tp23_poste_bureau">Poste 3 · Bureautique</string>
+    <string name="tp23_poste_vip">Poste 12 · VIP</string>
+    <string name="tp23_photo_poste">Photo du poste</string>
+    <string name="tp23_retour">Retour</string>
+    <string-array name="tp23_noms_postes">
+        <item>Poste 7 · Gamer</item>
+        <item>Poste 3 · Bureautique</item>
+        <item>Poste 12 · VIP</item>
+    </string-array>
+    <string-array name="tp23_descriptions_postes">
+        <item>Écran 27 pouces, casque, manette.\nIdéal pour les tournois du samedi.\nTarif : 10 DH / heure</item>
+        <item>Traitement de texte, impression, recherche.\nLe poste préféré de Hayat pour ses CV.\nTarif : 6 DH / heure</item>
+        <item>Fauteuil, double écran, salle calme.\nRéservé aux clients fidèles comme Mehdi.\nTarif : 15 DH / heure</item>
+    </string-array>
+</resources>

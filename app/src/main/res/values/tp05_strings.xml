@@ -1,0 +1,17 @@
+<resources>
+    <string name="tp05_app_name">TP S05</string>
+    <string name="tp05_titre_ecran">Connexion</string>
+
+    <string name="tp05_titre">Cybercafé Al Amal</string>
+    <string name="tp05_sous_titre">Connectez-vous à votre poste</string>
+    <string name="tp05_label_utilisateur">Utilisateur</string>
+    <string name="tp05_hint_utilisateur">ex. Yassine</string>
+    <string name="tp05_label_mot_de_passe">Mot de passe</string>
+    <string name="tp05_hint_mot_de_passe">4 caractères min.</string>
+    <string name="tp05_case_souvenir">Se souvenir de moi</string>
+    <string name="tp05_bouton_connexion">Connexion</string>
+
+    <string name="tp05_msg_champs_vides">Saisissez votre nom et votre mot de passe</string>
+    <string name="tp05_msg_bienvenue">Bienvenue %1$s ! Votre poste est prêt.</string>
+    <string name="tp05_msg_memorise">Bienvenue %1$s ! Vous resterez connecté.</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="tp11_app_name">Stars Al Amal</string>
+    <!-- Description de la photo (accessibilité) -->
+    <string name="tp11_photo_star">Photo de la star</string>
+    <!-- Message du Toast : %1$s = le nom de la star touchée -->
+    <string name="tp11_star_choisie">Vous avez choisi %1$s</string>
+</resources>

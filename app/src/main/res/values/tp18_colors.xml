@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp18_black">#FF000000</color>
+    <color name="tp18_white">#FFFFFFFF</color>
+    <color name="tp18_vert_ofppt">#FF1B7F3B</color>
+    <color name="tp18_vert_clair">#FFD7F0DE</color>
+    <color name="tp18_orange">#FFE67E22</color>
+    <color name="tp18_bleu_nuit">#FF1F2D3D</color>
+    <color name="tp18_gris_clair">#FFF2F4F5</color>
+    <!-- TP S18 : fond des cartes des postes -->
+    <color name="tp18_fond_carte">#FFE3EFE7</color>
+</resources>

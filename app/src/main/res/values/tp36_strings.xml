@@ -1,0 +1,21 @@
+<resources>
+    <string name="tp36_app_name">TP S36</string>
+    <string name="tp36_titre_reservation">Réserver un poste</string>
+    <string name="tp36_choisir_date">Choisissez une date ci-dessous</string>
+    <string name="tp36_date_choisie">Réservation le %1$s</string>
+    <string-array name="tp36_noms_courts">
+        <item>Gamer</item>
+        <item>Bureau</item>
+        <item>VIP</item>
+    </string-array>
+    <string-array name="tp36_noms_postes">
+        <item>Poste 7 · Gamer</item>
+        <item>Poste 3 · Bureautique</item>
+        <item>Poste 12 · VIP</item>
+    </string-array>
+    <string-array name="tp36_tarifs_postes">
+        <item>10 DH / heure</item>
+        <item>6 DH / heure</item>
+        <item>15 DH / heure</item>
+    </string-array>
+</resources>

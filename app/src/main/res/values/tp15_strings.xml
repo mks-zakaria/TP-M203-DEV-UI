@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tp15_app_name">TP S15</string>
+    <string name="tp15_titre">Réserver un poste</string>
+    <string name="tp15_sous_titre">Cybercafé Al Amal</string>
+    <string name="tp15_nom_client">Nom du client</string>
+    <string name="tp15_aide_nom">Comme sur la carte de fidélité</string>
+    <string name="tp15_erreur_nom">Le nom est obligatoire</string>
+    <string name="tp15_nos_salles">Nos salles</string>
+    <string name="tp15_salle_postes">Salle des postes · 12 places</string>
+    <string name="tp15_salle_jeux">Salle de jeux · 6 postes gamer</string>
+    <string name="tp15_choisir_duree">Durée</string>
+    <string name="tp15_duree_1h">1 heure</string>
+    <string name="tp15_duree_2h">2 heures</string>
+    <string name="tp15_duree_3h">3 heures</string>
+    <string name="tp15_reserver">Réserver</string>
+    <string name="tp15_confirmation">%1$s : poste réservé pour %2$s</string>
+</resources>

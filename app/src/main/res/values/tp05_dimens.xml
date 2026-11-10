@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Espacements (dp) et tailles de texte (sp) de l'écran de connexion -->
+    <dimen name="tp05_padding_ecran">24dp</dimen>
+    <dimen name="tp05_marge_bloc">32dp</dimen>
+    <dimen name="tp05_marge_ligne">16dp</dimen>
+    <dimen name="tp05_taille_logo">96dp</dimen>
+    <dimen name="tp05_texte_titre">26sp</dimen>
+    <dimen name="tp05_texte_normal">18sp</dimen>
+</resources>

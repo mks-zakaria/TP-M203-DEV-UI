@@ -1,0 +1,8 @@
+<resources>
+    <string name="tp21_app_name">TP S21</string>
+    <string name="tp21_titre_tournoi">Tournoi FIFA\nsamedi 15 h</string>
+    <string name="tp21_sous_titre">Salle de jeux Al Amal · 8 places</string>
+    <string name="tp21_trophee">Trophée du tournoi</string>
+    <string name="tp21_je_minscris">Je m\'inscris</string>
+    <string name="tp21_inscription_ok">Inscription enregistrée : à samedi !</string>
+</resources>

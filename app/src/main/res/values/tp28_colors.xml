@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp28_black">#FF000000</color>
+    <color name="tp28_white">#FFFFFFFF</color>
+    <color name="tp28_vert_ofppt">#FF1B7F3B</color>
+    <color name="tp28_vert_clair">#FFD7F0DE</color>
+    <color name="tp28_orange">#FFE67E22</color>
+    <color name="tp28_orange_fonce">#FFB35400</color>
+    <color name="tp28_jaune">#FFF4D03F</color>
+    <color name="tp28_violet">#FF6C3483</color>
+    <color name="tp28_bleu_nuit">#FF1F2D3D</color>
+    <color name="tp28_gris_clair">#FFF2F4F5</color>
+    <color name="tp28_gris">#FF95A5A6</color>
+    <color name="tp28_rouge">#FFC0392B</color>
+    <!-- fond de la carte du TP -->
+    <color name="tp28_carte_jaune">#FFFFD580</color>
+</resources>

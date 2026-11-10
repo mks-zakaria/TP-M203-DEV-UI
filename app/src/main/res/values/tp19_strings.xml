@@ -1,0 +1,15 @@
+<resources>
+    <string name="tp19_app_name">TP S19</string>
+    <!-- En-tête du tiroir (nav_entete.xml, déjà prêt) -->
+    <string name="tp19_nom_cyber">Cybercafé Al Amal</string>
+    <string name="tp19_slogan">Khouribga · ouvert 7 j/7</string>
+    <!-- Titres des 3 items du menu (et des 3 écrans) -->
+    <string name="tp19_menu_accueil">Accueil</string>
+    <string name="tp19_menu_formation">La formation</string>
+    <string name="tp19_menu_contact">Horaires et contact</string>
+    <!-- Textes des 3 fragments -->
+    <string name="tp19_accueil_texte">Bienvenue au cybercafé Al Amal !\nSaïd et son équipe vous accueillent : Internet, impression, scanner et formation bureautique.\n\nTouchez ☰ pour ouvrir le menu.</string>
+    <string name="tp19_formation_texte">Formation bureautique pour les étudiants, animée par Hayat :\n\n• Word : mettre en forme un rapport\n• Excel : tableaux et graphiques\n• Internet : recherche et e-mail\n\nChaque samedi de 10 h à 12 h.</string>
+    <string name="tp19_contact_texte">Ouvert tous les jours de 9 h à 23 h.\n\nAvenue Hassan II, Khouribga.\n\nTél. : 05 23 00 00 00</string>
+    <string name="tp19_logo_description">Logo de la formation</string>
+</resources>

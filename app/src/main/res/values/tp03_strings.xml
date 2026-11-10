@@ -1,0 +1,18 @@
+<resources>
+    <string name="tp03_app_name">TP S03</string>
+    <!-- Fiche client du cybercafé Al Amal -->
+    <string name="tp03_titre">Fiche client</string>
+    <string name="tp03_sous_titre">Remplissez les champs dans l\'ordre (touche ➜)</string>
+    <string name="tp03_hint_nom">Nom et prénom</string>
+    <string name="tp03_hint_cin">CIN (ex. AB123456)</string>
+    <string name="tp03_hint_tel">Téléphone (10 chiffres)</string>
+    <string name="tp03_hint_mdp">Mot de passe (6 caractères min.)</string>
+    <string name="tp03_btn_enregistrer">Enregistrer</string>
+    <!-- Messages d'erreur -->
+    <string name="tp03_erreur_nom">Nom obligatoire</string>
+    <string name="tp03_erreur_cin">CIN obligatoire</string>
+    <string name="tp03_erreur_tel">10 chiffres attendus</string>
+    <string name="tp03_erreur_mdp">6 caractères minimum</string>
+    <!-- %1$s = nom, %2$s = CIN -->
+    <string name="tp03_fiche_ok">Fiche de %1$s (CIN %2$s) enregistrée</string>
+</resources>

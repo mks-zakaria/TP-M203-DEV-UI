@@ -1,0 +1,24 @@
+<resources>
+    <string name="tp33_app_name">TP S33</string>
+    <string name="tp33_titre">Nos postes</string>
+    <string-array name="tp33_noms">
+        <item>Poste bureau</item>
+        <item>Poste gamer</item>
+        <item>Poste VIP</item>
+    </string-array>
+    <string-array name="tp33_descriptions">
+        <item>Écran 24 pouces, Office, imprimante à côté. Idéal pour les CV, les devoirs et les démarches en ligne.</item>
+        <item>Carte graphique puissante, écran 144 Hz, casque et clavier lumineux. Pour les tournois du samedi.</item>
+        <item>Fauteuil confortable, écran 32 pouces, salle calme. Pour les longues séances de travail.</item>
+    </string-array>
+    <string-array name="tp33_tarifs">
+        <item>5 DH / heure</item>
+        <item>8 DH / heure</item>
+        <item>10 DH / heure</item>
+    </string-array>
+    <string name="tp33_wifi">Wi-Fi gratuit</string>
+    <string name="tp33_reserver">Réserver</string>
+    <string name="tp33_annuler">Annuler</string>
+    <string name="tp33_suivant">Poste suivant</string>
+    <string name="tp33_reserve_par">Réservé par Yassine</string>
+</resources>

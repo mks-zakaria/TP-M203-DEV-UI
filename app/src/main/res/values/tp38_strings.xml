@@ -1,0 +1,23 @@
+<resources>
+    <string name="tp38_app_name">TP S38</string>
+    <string name="tp38_titre">Caisse Al Amal</string>
+    <string name="tp38_nom_client">Nom du client</string>
+    <string name="tp38_duree">Durée :</string>
+    <string name="tp38_moins">−</string>
+    <string name="tp38_plus">+</string>
+    <string name="tp38_heures">%1$d h</string>
+    <string name="tp38_total">Total : %1$d DH</string>
+    <string name="tp38_ajouter">Ajouter le ticket</string>
+    <string name="tp38_aucun_ticket">Aucun ticket pour l\'instant</string>
+    <string name="tp38_ligne_ticket">• %1$s · %2$s · %3$d h · %4$d DH</string>
+    <string-array name="tp38_noms_courts">
+        <item>Gamer</item>
+        <item>Bureau</item>
+        <item>VIP</item>
+    </string-array>
+    <integer-array name="tp38_tarifs">
+        <item>10</item>
+        <item>6</item>
+        <item>15</item>
+    </integer-array>
+</resources>

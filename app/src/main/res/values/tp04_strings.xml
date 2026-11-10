@@ -1,0 +1,19 @@
+<resources>
+    <string name="tp04_app_name">Nos pizzas</string>
+
+    <!-- Les noms des 6 pizzas (pour la première liste, avec ArrayAdapter) -->
+    <string-array name="tp04_noms_pizzas">
+        <item>Margherita</item>
+        <item>Pepperoni</item>
+        <item>Caprese</item>
+        <item>Végétarienne</item>
+        <item>Kefta</item>
+        <item>Thon et œuf</item>
+    </string-array>
+
+    <!-- %1$d sera remplacé par la durée en minutes -->
+    <string name="tp04_duree">%1$d min</string>
+    <!-- Message du Toast : %1$s = nom de la pizza, %2$d = durée -->
+    <string name="tp04_toast_pizza">%1$s : %2$d min</string>
+    <string name="tp04_photo_description">Photo de la pizza</string>
+</resources>

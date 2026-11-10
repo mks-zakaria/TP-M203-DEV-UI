@@ -1,0 +1,19 @@
+<resources>
+    <string name="tp06_app_name">TP S06</string>
+    <string name="tp06_titre_ecran">Tableau de bord</string>
+
+    <string name="tp06_titre">Cybercafé Al Amal</string>
+    <string name="tp06_sous_titre">Accueil des clients — Saïd, gérant</string>
+    <string name="tp06_label_client">Client</string>
+    <string name="tp06_hint_client">ex. Hayat</string>
+    <string name="tp06_label_poste">Poste n°</string>
+    <string name="tp06_hint_poste">1 à 12</string>
+
+    <string name="tp06_bouton_reserver">Réserver</string>
+    <string name="tp06_bouton_imprimer">Imprimer</string>
+    <string name="tp06_bouton_cafe">Café</string>
+    <string name="tp06_desc_banniere">Deux joueurs devant leurs écrans au cybercafé</string>
+
+    <string name="tp06_msg_champs_vides">Saisissez le client et le numéro du poste</string>
+    <string name="tp06_msg_reserve">Poste %2$s réservé pour %1$s</string>
+</resources>

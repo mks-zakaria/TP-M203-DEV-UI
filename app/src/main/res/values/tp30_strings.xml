@@ -1,0 +1,8 @@
+<resources>
+    <string name="tp30_app_name">TP S30</string>
+    <string name="tp30_logo_description">Logo Al Amal</string>
+    <string name="tp30_bienvenue">Bienvenue chez Al Amal</string>
+    <string name="tp30_badge_wifi">Wi-Fi gratuit</string>
+    <string name="tp30_reserver">Réserver un poste</string>
+    <string name="tp30_reserve_ok">Poste réservé : à tout de suite !</string>
+</resources>

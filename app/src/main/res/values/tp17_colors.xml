@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp17_black">#FF000000</color>
+    <color name="tp17_white">#FFFFFFFF</color>
+    <color name="tp17_vert_ofppt">#FF1B7F3B</color>
+    <color name="tp17_vert_clair">#FFD7F0DE</color>
+    <color name="tp17_bleu_nuit">#FF1F2D3D</color>
+    <!-- TP S17 : les couleurs du dessin -->
+    <color name="tp17_fond_salle">#FFF2F4F5</color>
+    <color name="tp17_bleu_ecran">#FF1565C0</color>
+    <color name="tp17_gris_pied">#FF78909C</color>
+    <color name="tp17_orange">#FFE67E22</color>
+</resources>

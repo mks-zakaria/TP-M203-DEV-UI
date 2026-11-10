@@ -1,0 +1,7 @@
+<resources>
+    <string name="tp17_app_name">TP S17</string>
+    <string name="tp17_titre">Le poste de Yassine, dessiné sur un Canvas</string>
+    <!-- textes écrits dans le dessin avec canvas.drawText -->
+    <string name="tp17_enseigne">Cybercafé Al Amal</string>
+    <string name="tp17_poste">Poste 1 · Yassine</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="tp02_app_name">TP S02</string>
+    <!-- Écran de réservation d'un poste -->
+    <string name="tp02_titre">Réserver un poste</string>
+    <string name="tp02_sous_titre">Cybercafé Al Amal · 9 h – 23 h</string>
+    <string name="tp02_libelle_forfait">Forfait</string>
+    <string name="tp02_forfait_30">30 min — 6 DH</string>
+    <string name="tp02_forfait_60">1 heure — 10 DH</string>
+    <string name="tp02_forfait_120">2 heures — 18 DH</string>
+    <string name="tp02_impression">Impression (+2 DH)</string>
+    <string name="tp02_btn_date">Choisir la date</string>
+    <string name="tp02_btn_reserver">Réserver</string>
+    <string name="tp02_aucune_date">Date : non choisie</string>
+    <!-- %1$s sera remplacé par la date choisie -->
+    <string name="tp02_date_choisie">Date : %1$s</string>
+    <!-- Boîte de dialogue de confirmation : %1$s = date, %2$d = prix -->
+    <string name="tp02_dialog_titre">Confirmer la réservation</string>
+    <string name="tp02_dialog_message">Le %1$s\nTotal à payer : %2$d DH</string>
+    <string name="tp02_dialog_confirmer">Confirmer</string>
+    <string name="tp02_dialog_annuler">Annuler</string>
+    <string name="tp02_erreur_date">Choisissez d\'abord la date</string>
+    <string name="tp02_reservation_ok">Réservation enregistrée, à bientôt !</string>
+</resources>

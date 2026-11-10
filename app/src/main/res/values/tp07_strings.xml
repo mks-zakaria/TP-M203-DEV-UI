@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tp07_app_name">TP S07</string>
+    <string name="tp07_titre_ecran">TP S07 · Grille de postes</string>
+    <!-- Bannière -->
+    <string name="tp07_nom_cyber">Cybercafé Al Amal</string>
+    <string name="tp07_ouvert">OUVERT</string>
+    <string name="tp07_desc_banniere">Salle de postes du cybercafé</string>
+    <!-- Grille des 6 postes : \n = retour à la ligne -->
+    <string name="tp07_nos_postes">Nos postes</string>
+    <string name="tp07_legende">Vert : libre · Rouge : occupé</string>
+    <string name="tp07_poste_1">Poste 1\nLibre</string>
+    <string name="tp07_poste_2">Poste 2\nOccupé</string>
+    <string name="tp07_poste_3">Poste 3\nLibre</string>
+    <string name="tp07_poste_4">Poste 4\nLibre</string>
+    <string name="tp07_poste_5">Poste 5\nOccupé</string>
+    <string name="tp07_poste_6">Poste 6\nLibre</string>
+    <!-- Tableau des tarifs : libellé (colonne 0) et prix (colonne 1) -->
+    <string name="tp07_nos_tarifs">Nos tarifs</string>
+    <string name="tp07_tarif_service">Service</string>
+    <string name="tp07_tarif_prix">Prix</string>
+    <string name="tp07_tarif_internet">Internet (1 h)</string>
+    <string name="tp07_prix_internet">5 DH</string>
+    <string name="tp07_tarif_impression">Impression (1 page)</string>
+    <string name="tp07_prix_impression">1 DH</string>
+    <string name="tp07_tarif_jeux">Jeux en réseau (1 h)</string>
+    <string name="tp07_prix_jeux">10 DH</string>
+</resources>

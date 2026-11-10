@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textes PAR DÉFAUT (français) -->
+<resources>
+    <string name="tp14_app_name">TP S14</string>
+    <string name="tp14_titre">Cybercafé Al Amal</string>
+    <string name="tp14_horaires">Ouvert tous les jours de 9 h à 23 h · Khouribga</string>
+    <string name="tp14_sous_titre">Nos services</string>
+    <string name="tp14_service_internet">Internet · 5 DH / heure</string>
+    <string name="tp14_service_impression">Impression · 1 DH / page</string>
+    <string name="tp14_service_cafe">Café · 6 DH</string>
+    <string name="tp14_btn_reserver">Réserver un poste</string>
+    <string name="tp14_confirmation">Demande envoyée à Saïd !</string>
+</resources>

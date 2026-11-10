@@ -1,0 +1,10 @@
+<resources>
+    <string name="tp27_app_name">TP S27</string>
+    <string name="tp27_chargement">Chargement du poste du jour…</string>
+    <string name="tp27_titre_contenu">Le poste du jour</string>
+    <string name="tp27_photo_poste">Photo du poste Gamer</string>
+    <string name="tp27_nom_poste">Poste Gamer · 8 DH l\'heure</string>
+    <string name="tp27_voir_detail">Voir le détail</string>
+    <string name="tp27_description_poste">PC puissant, clavier lumineux et casque : parfait pour les tournois du samedi.\n\nRéservé ce soir par Yassine de 18 h à 20 h.</string>
+    <string name="tp27_retour">Retour</string>
+</resources>

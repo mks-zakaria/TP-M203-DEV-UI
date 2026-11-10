@@ -1,0 +1,7 @@
+<resources>
+    <string name="tp22_app_name">TP S22</string>
+    <string name="tp22_question">Qui commence la partie ?</string>
+    <string name="tp22_de">Dé</string>
+    <string name="tp22_lancer_de">Lancer le dé</string>
+    <string name="tp22_resultat">Le dé tombe sur %1$d !</string>
+</resources>

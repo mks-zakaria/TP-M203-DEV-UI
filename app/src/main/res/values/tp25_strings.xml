@@ -1,0 +1,12 @@
+<resources>
+    <string name="tp25_app_name">TP S25</string>
+    <string name="tp25_titre_tournoi">Tournoi du samedi</string>
+    <string name="tp25_sous_titre_tournoi">Joueur de la semaine : Mehdi</string>
+    <string name="tp25_etoile">Étoile du tournoi</string>
+    <string name="tp25_voir_fiche">Voir la fiche de Mehdi</string>
+    <string name="tp25_nom_joueur">Mehdi</string>
+    <string name="tp25_niveau_joueur">Niveau : débutant · 2 victoires</string>
+    <string name="tp25_avatar">Avatar de Mehdi</string>
+    <string name="tp25_inscrire">Inscrire au tournoi</string>
+    <string name="tp25_inscrit">INSCRIT ✓</string>
+</resources>

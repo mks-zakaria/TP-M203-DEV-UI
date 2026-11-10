@@ -1,0 +1,14 @@
+<resources>
+    <string name="tp01_app_name">TP S01</string>
+    <!-- Textes de l'écran d'accueil Al Amal -->
+    <string name="tp01_titre">Cybercafé Al Amal</string>
+    <string name="tp01_horaires"><b>Ouvert 7j/7</b> · de <i>9 h à 23 h</i></string>
+    <string name="tp01_tarif">Poste : 10 DH l\'heure · Impression : 2 DH la page</string>
+    <string name="tp01_contact">www.alamal.ma\n+212 523 45 67 89\nsaid@alamal.ma</string>
+    <string name="tp01_hint_prenom">Votre prénom</string>
+    <string name="tp01_btn_entrer">Entrer</string>
+    <string name="tp01_erreur_prenom">Saisissez votre prénom</string>
+    <!-- %1$s sera remplacé par le prénom saisi -->
+    <string name="tp01_bonjour">Bonjour %1$s, bienvenue chez Al Amal !</string>
+    <string name="tp01_logo_description">Logo du cybercafé Al Amal</string>
+</resources>

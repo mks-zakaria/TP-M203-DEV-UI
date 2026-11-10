@@ -1,0 +1,14 @@
+<resources>
+    <string name="tp37_app_name">TP S37</string>
+    <string name="tp37_titre">Poste en direct</string>
+    <string name="tp37_promo">PROMO de nuit −20 %</string>
+    <string name="tp37_nom_poste">Poste 7 · Gamer</string>
+    <string name="tp37_photo_poste">Photo du poste 7</string>
+    <string name="tp37_toucher">Touchez la carte pour voir le détail</string>
+    <string name="tp37_description">Écran 27 pouces, casque, manette.</string>
+    <string name="tp37_tarif">10 DH / heure</string>
+    <string name="tp37_libre">LIBRE</string>
+    <string name="tp37_occupe">OCCUPÉ</string>
+    <string name="tp37_marquer_occupe">Un client s\'installe</string>
+    <string name="tp37_marquer_libre">Le client part</string>
+</resources>

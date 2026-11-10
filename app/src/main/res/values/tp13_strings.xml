@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tp13_app_name">TP S13</string>
+    <string name="tp13_titre_ecran">TP S13 · Fiche d\'inscription</string>
+    <string name="tp13_titre">Inscription · Al Amal</string>
+    <string name="tp13_libelle_nom">Nom</string>
+    <string name="tp13_libelle_prenom">Prénom</string>
+    <string name="tp13_libelle_date">Date de naissance</string>
+    <string name="tp13_hint_nom">ex. Bennani</string>
+    <string name="tp13_hint_prenom">ex. Hayat</string>
+    <string name="tp13_hint_date">jj/mm/aaaa</string>
+    <string name="tp13_enregistrer">Enregistrer</string>
+    <string name="tp13_carte_vide">Remplissez au moins le nom et le prénom.</string>
+    <string name="tp13_carte">Carte de fidélité n° 0042\n%1$s %2$s</string>
+</resources>

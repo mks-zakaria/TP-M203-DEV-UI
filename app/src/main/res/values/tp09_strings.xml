@@ -1,0 +1,17 @@
+<resources>
+    <string name="tp09_app_name">Al Amal · Réservations</string>
+
+    <!-- Textes de l'écran -->
+    <string name="tp09_hint_nom">Nom du client</string>
+    <string name="tp09_etat_libre">Poste 5 : libre</string>
+    <!-- %1$s sera remplacé par le nom du client -->
+    <string name="tp09_etat_reserve">Poste réservé pour %1$s</string>
+    <string name="tp09_desc_poste">État du poste</string>
+    <string name="tp09_reserver">Réserver</string>
+    <string name="tp09_aide">Clic : réserver · Appui long : annuler</string>
+
+    <!-- Messages (Toast et erreur) -->
+    <string name="tp09_erreur_nom">Saisissez le nom du client</string>
+    <string name="tp09_msg_reserve">Réservation enregistrée</string>
+    <string name="tp09_msg_annule">Réservation annulée</string>
+</resources>

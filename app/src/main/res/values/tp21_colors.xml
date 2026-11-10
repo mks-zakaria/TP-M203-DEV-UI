@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp21_black">#FF000000</color>
+    <color name="tp21_white">#FFFFFFFF</color>
+    <color name="tp21_vert_ofppt">#FF1B7F3B</color>
+    <color name="tp21_vert_clair">#FFD7F0DE</color>
+    <color name="tp21_orange">#FFE67E22</color>
+    <color name="tp21_bleu_nuit">#FF1F2D3D</color>
+</resources>

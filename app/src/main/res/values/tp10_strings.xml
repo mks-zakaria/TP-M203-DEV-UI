@@ -1,0 +1,26 @@
+<resources>
+    <string name="tp10_app_name">Al Amal · Accueil</string>
+
+    <!-- Écran d'accueil -->
+    <string name="tp10_bienvenue">Bienvenue au cybercafé Al Amal</string>
+    <string name="tp10_desc_salle">La salle des postes du cybercafé</string>
+    <string name="tp10_hint_nom">Nom du client</string>
+    <string name="tp10_hint_tel">Téléphone (10 chiffres)</string>
+    <string name="tp10_reserver">Réserver</string>
+    <string name="tp10_desc_tarifs">Icône des tarifs</string>
+    <string name="tp10_aide_swipe">Glissez sur la carte : tarif suivant / précédent</string>
+
+    <!-- Messages de validation -->
+    <string name="tp10_erreur_nom">Nom : 3 lettres minimum</string>
+    <string name="tp10_erreur_tel">Téléphone : 10 chiffres</string>
+    <!-- %1$s sera remplacé par le nom du client -->
+    <string name="tp10_msg_ok">Réservation confirmée : %1$s</string>
+
+    <!-- Les tarifs affichés sur la carte (un par swipe) -->
+    <string-array name="tp10_tarifs">
+        <item>Internet\n5 DH / heure (1/4)</item>
+        <item>Jeux en réseau\n8 DH / heure (2/4)</item>
+        <item>Impression\n1 DH / page (3/4)</item>
+        <item>Forfait étudiant\n30 DH / 10 h (4/4)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp15_black">#FF000000</color>
+    <color name="tp15_white">#FFFFFFFF</color>
+    <color name="tp15_vert_ofppt">#FF1B7F3B</color>
+    <color name="tp15_vert_clair">#FFD7F0DE</color>
+    <color name="tp15_vert_fonce">#FF0B4D22</color>
+    <color name="tp15_orange">#FFE67E22</color>
+    <color name="tp15_orange_clair">#FFFDE3CC</color>
+    <color name="tp15_bleu_nuit">#FF1F2D3D</color>
+</resources>

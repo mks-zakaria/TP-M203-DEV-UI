@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp04_black">#FF000000</color>
+    <color name="tp04_white">#FFFFFFFF</color>
+    <!-- Couleurs de l'application Pizza Recipes -->
+    <color name="tp04_rouge_pizza">#FFC62828</color>
+    <color name="tp04_rouge_fonce">#FF8E0000</color>
+    <color name="tp04_orange_pizza">#FFFF7043</color>
+    <color name="tp04_texte_principal">#FF212121</color>
+    <color name="tp04_texte_secondaire">#FF616161</color>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textes en ANGLAIS : à copier dans res/values-en/tp14_strings.xml -->
+<resources>
+    <string name="tp14_titre">Al Amal Cybercafé</string>
+    <string name="tp14_horaires">Open every day from 9 am to 11 pm · Khouribga</string>
+    <string name="tp14_sous_titre">Our services</string>
+    <string name="tp14_service_internet">Internet · 5 DH / hour</string>
+    <string name="tp14_service_impression">Printing · 1 DH / page</string>
+    <string name="tp14_service_cafe">Coffee · 6 DH</string>
+    <string name="tp14_btn_reserver">Book a computer</string>
+    <string name="tp14_confirmation">Request sent to Saïd!</string>
+</resources>

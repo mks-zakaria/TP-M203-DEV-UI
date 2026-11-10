@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp13_black">#FF000000</color>
+    <color name="tp13_white">#FFFFFFFF</color>
+    <color name="tp13_violet">#FF7F669D</color>
+    <color name="tp13_violet_fonce">#FF5B4675</color>
+    <color name="tp13_bleu_nuit">#FF1F2D3D</color>
+    <color name="tp13_gris_clair">#FFF2F4F5</color>
+</resources>

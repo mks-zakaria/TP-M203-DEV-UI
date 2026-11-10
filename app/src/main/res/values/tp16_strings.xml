@@ -1,0 +1,11 @@
+<resources>
+    <string name="tp16_app_name">TP S16</string>
+    <string name="tp16_titre_jeu">Salle de jeux Al Amal · la boule rouge</string>
+    <string name="tp16_consigne">Utilisez les flèches pour déplacer la boule</string>
+    <string name="tp16_haut">Haut</string>
+    <string name="tp16_bas">Bas</string>
+    <string name="tp16_gauche">Gauche</string>
+    <string name="tp16_droite">Droite</string>
+    <!-- %1$d = x, %2$d = y (en pixels) -->
+    <string name="tp16_position">Position de la boule : x = %1$d · y = %2$d</string>
+</resources>

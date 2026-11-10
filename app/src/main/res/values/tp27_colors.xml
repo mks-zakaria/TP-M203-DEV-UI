@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp27_black">#FF000000</color>
+    <color name="tp27_white">#FFFFFFFF</color>
+    <color name="tp27_vert_ofppt">#FF1B7F3B</color>
+    <color name="tp27_vert_clair">#FFD7F0DE</color>
+    <color name="tp27_orange">#FFE67E22</color>
+    <color name="tp27_orange_fonce">#FFB35400</color>
+    <color name="tp27_jaune">#FFF4D03F</color>
+    <color name="tp27_violet">#FF6C3483</color>
+    <color name="tp27_bleu_nuit">#FF1F2D3D</color>
+    <color name="tp27_gris_clair">#FFF2F4F5</color>
+    <color name="tp27_gris">#FF95A5A6</color>
+    <color name="tp27_rouge">#FFC0392B</color>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="tp24_app_name">TP S24</string>
+    <string name="tp24_titre_accueil">Accueil</string>
+    <string name="tp24_titre_salle">Salle de jeux</string>
+    <string name="tp24_texte_accueil">Bienvenue au cybercafé Al Amal !\nChoisissez l\'effet pour entrer dans la salle de jeux.</string>
+    <string name="tp24_texte_salle">12 postes gamer, manettes et casques.\nTournoi chaque samedi.</string>
+    <string name="tp24_explode">Explode</string>
+    <string name="tp24_slide">Slide</string>
+    <string name="tp24_fade">Fade</string>
+    <string name="tp24_effet_choisi">Vous êtes entré avec : %1$s</string>
+</resources>

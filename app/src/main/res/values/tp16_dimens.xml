@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- rayon de la boule et longueur d'un pas (lus en Kotlin avec resources.getDimension) -->
+    <dimen name="tp16_rayon_boule">36dp</dimen>
+    <dimen name="tp16_pas_boule">24dp</dimen>
+</resources>

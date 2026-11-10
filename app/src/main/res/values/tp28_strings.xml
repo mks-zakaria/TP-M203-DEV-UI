@@ -1,0 +1,11 @@
+<resources>
+    <string name="tp28_app_name">TP S28</string>
+    <string name="tp28_carte_titre">Al Amal · Poste 4</string>
+    <string name="tp28_carte_texte">Touchez un bouton pour animer la carte</string>
+    <string name="tp28_poste">Icône du poste</string>
+    <string name="tp28_zoom">Zoom</string>
+    <string name="tp28_rotate">Rotate</string>
+    <string name="tp28_move">Move</string>
+    <string name="tp28_slide">Slide</string>
+    <string name="tp28_bounce">Bounce</string>
+</resources>

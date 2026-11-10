@@ -1,0 +1,11 @@
+<resources>
+    <string name="tp35_app_name">TP S35</string>
+    <string name="tp35_titre">Cybercafé Al Amal</string>
+    <string name="tp35_photo_salle">La salle des postes</string>
+    <string name="tp35_badge">6 postes</string>
+    <string name="tp35_horaires">9 h - 23 h</string>
+    <string name="tp35_wifi">Wi-Fi</string>
+    <string name="tp35_plan">Plan de la salle</string>
+    <string name="tp35_poste">Poste %1$d</string>
+    <string name="tp35_legende">Vert : libre · Orange : occupé</string>
+</resources>

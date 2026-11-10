@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tp08_app_name">TP S08</string>
+    <string name="tp08_titre_ecran">Converter</string>
+    <!-- Les 2 onglets -->
+    <string name="tp08_onglet_temperature">°C → °F</string>
+    <string name="tp08_onglet_distance">Km → Miles</string>
+    <!-- Fragment 1 : CtoF -->
+    <string name="tp08_titre_cf">Celsius → Fahrenheit</string>
+    <string name="tp08_hint_celsius">Température en °C</string>
+    <!-- %1$.1f = nombre avec 1 chiffre après la virgule -->
+    <string name="tp08_resultat_f">%1$.1f °F</string>
+    <!-- Fragment 2 : KmToMiles -->
+    <string name="tp08_titre_km">Kilomètres → Miles</string>
+    <string name="tp08_hint_km">Distance en km</string>
+    <string name="tp08_resultat_miles">%1$.1f miles</string>
+    <!-- Communs aux deux fragments -->
+    <string name="tp08_convertir">Convertir</string>
+    <string name="tp08_resultat_vide">Résultat</string>
+    <string name="tp08_erreur_nombre">Saisissez un nombre</string>
+</resources>

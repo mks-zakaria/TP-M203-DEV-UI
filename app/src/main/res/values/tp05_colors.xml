@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tp05_black">#FF000000</color>
+    <color name="tp05_white">#FFFFFFFF</color>
+    <!-- Couleurs du cybercafé Al Amal -->
+    <color name="tp05_vert_alamal">#FF1B7A3E</color>
+    <color name="tp05_vert_fonce">#FF0F4D27</color>
+    <color name="tp05_gris_fond">#FFF4F6F5</color>
+    <color name="tp05_gris_bord">#FFB0BEC5</color>
+    <color name="tp05_texte_principal">#FF212121</color>
+    <color name="tp05_texte_secondaire">#FF616161</color>
+</resources>

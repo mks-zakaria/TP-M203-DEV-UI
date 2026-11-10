@@ -1,0 +1,13 @@
+<resources>
+    <string name="tp18_app_name">TP S18</string>
+    <string name="tp18_titre">Les postes du cybercafé Al Amal</string>
+    <!-- Texte écrit sur la bannière (drawText) -->
+    <string name="tp18_enseigne">Cybercafé Al Amal</string>
+    <!-- Un prénom par poste, dans l'ordre des avatars -->
+    <string-array name="tp18_clients">
+        <item>Hayat</item>
+        <item>Mehdi</item>
+        <item>Yassine</item>
+        <item>Saïd</item>
+    </string-array>
+</resources>
