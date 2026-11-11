@@ -1,0 +1,12 @@
+<resources>
+    <string name="s02_app_name">Al Amal S02</string>
+    <!-- region etape4 -->
+    <string-array name="s02_postes">
+        <item>Poste 1 (fenêtre)</item>
+        <item>Poste 2</item>
+        <item>Poste 3 (imprimante)</item>
+        <item>Poste 4 (casque)</item>
+        <item>Poste 5 (grand écran)</item>
+    </string-array>
+    <!-- endregion -->
+</resources>

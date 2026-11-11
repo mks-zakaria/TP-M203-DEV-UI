@@ -1,0 +1,13 @@
+<resources>
+    <string name="s36_app_name">Al Amal S36</string>
+    <string-array name="s36_noms_postes">
+        <item>Poste 7 · Gamer</item>
+        <item>Poste 3 · Bureautique</item>
+        <item>Poste 12 · VIP</item>
+    </string-array>
+    <string-array name="s36_tarifs_postes">
+        <item>10 DH / heure</item>
+        <item>6 DH / heure</item>
+        <item>15 DH / heure</item>
+    </string-array>
+</resources>

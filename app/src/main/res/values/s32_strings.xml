@@ -1,0 +1,11 @@
+<resources>
+    <string name="s32_app_name">Al Amal S32</string>
+    <!-- region etape10 -->
+    <string name="s32_slogan">Al Amal : Internet, jeux et impression</string>
+    <string-array name="s32_horaires">
+        <item>Lundi - vendredi : 9 h - 23 h</item>
+        <item>Samedi : 10 h - 23 h</item>
+        <item>Dimanche : 14 h - 22 h</item>
+    </string-array>
+    <!-- endregion -->
+</resources>

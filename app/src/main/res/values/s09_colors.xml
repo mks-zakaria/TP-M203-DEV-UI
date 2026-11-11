@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="s09_black">#FF000000</color>
+    <color name="s09_white">#FFFFFFFF</color>
+    <color name="s09_vert_ofppt">#FF1B7F3B</color>
+    <color name="s09_vert_clair">#FFD7F0DE</color>
+    <color name="s09_orange">#FFE67E22</color>
+    <color name="s09_bleu_nuit">#FF1F2D3D</color>
+    <color name="s09_gris_clair">#FFF2F4F5</color>
+    <color name="s09_rouge">#FFC0392B</color>
+</resources>

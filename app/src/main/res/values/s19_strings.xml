@@ -1,0 +1,29 @@
+<resources>
+    <string name="s19_app_name">Al Amal S19</string>
+    <string name="s19_nom_cyber">Cybercafé Al Amal</string>
+    <string name="s19_formation">Formation bureautique · étudiants</string>
+    <string name="s19_ouvrir_tiroir">Ouvrir le menu</string>
+    <string name="s19_fermer_tiroir">Fermer le menu</string>
+    <string name="s19_menu_ajouter">Ajouter un étudiant</string>
+    <string name="s19_menu_liste">Liste des étudiants</string>
+    <string name="s19_menu_accueil">Accueil</string>
+    <string name="s19_menu_contact">Horaires et contact</string>
+    <string name="s19_nom">Nom</string>
+    <string name="s19_prenom">Prénom</string>
+    <string name="s19_date_naissance">Date de naissance (JJ/MM/AAAA)</string>
+    <string name="s19_ville">Ville</string>
+    <string name="s19_enregistrer">Enregistrer</string>
+    <string name="s19_choisir_photo">Choisir une photo</string>
+    <string name="s19_etudiant_ajoute">Étudiant ajouté : %1$s</string>
+    <string name="s19_champs_vides">Remplissez le nom et le prénom</string>
+    <string name="s19_accueil_texte">Bienvenue à la formation bureautique du cybercafé Al Amal : Word, Excel, Internet.</string>
+    <string name="s19_contact_texte">Ouvert tous les jours de 9 h à 23 h.\nAvenue Hassan II, Khouribga.\nTél. : 05 23 00 00 00</string>
+    <string-array name="s19_villes">
+        <item>Khouribga</item>
+        <item>Oued Zem</item>
+        <item>Boujniba</item>
+        <item>Hattane</item>
+        <item>Béni Mellal</item>
+        <item>Casablanca</item>
+    </string-array>
+</resources>

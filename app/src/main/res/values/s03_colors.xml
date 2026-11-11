@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="s03_black">#FF000000</color>
+    <color name="s03_white">#FFFFFFFF</color>
+    <color name="s03_vert_alamal">#FF1B7A3E</color>
+    <color name="s03_vert_fonce">#FF0F4D27</color>
+</resources>

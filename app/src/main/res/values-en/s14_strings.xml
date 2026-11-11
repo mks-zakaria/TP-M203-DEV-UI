@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- region etape9 -->
+<!-- res/values-en/strings.xml : mêmes NOMS, textes traduits -->
+<resources>
+    <string name="s14_langue_titre">Al Amal Cybercafé</string>
+    <string name="s14_langue_message">Wi-Fi is free for our customers.</string>
+    <string name="s14_langue_bouton">Log in</string>
+</resources>
+<!-- endregion -->

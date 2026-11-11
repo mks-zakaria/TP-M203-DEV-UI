@@ -29,8 +29,8 @@ salle, le projet s'ouvre et se lance **sans Internet**. **N'ajoutez jamais de bi
 - Layout : `app/src/main/res/layout/activity_playground.xml`
 - Code : `app/src/main/java/ma/ofppt/ista/alamal/PlaygroundActivity.kt` (dans `onCreate`, après `setContentView`)
 
-Effacez et réécrivez librement : le Playground sert à essayer. Les images du cours sont déjà là
-(`@drawable/s05_…`, `R.drawable.s05_…`).
+Effacez et réécrivez librement : le Playground sert à essayer. Les images et les textes du cours sont déjà là
+(`@drawable/s05_…`, `@string/s05_…`, `@color/s05_…`).
 
 ## 3. Changer de mode : Playground ↔ TP
 

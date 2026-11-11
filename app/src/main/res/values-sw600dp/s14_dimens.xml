@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- region etape10 -->
+<!-- res/values-sw600dp/dimens.xml : écrans d'au moins 600dp de large -->
+<resources>
+    <dimen name="s14_marge_ecran">48dp</dimen>
+    <dimen name="s14_texte_titre">40sp</dimen>
+    <dimen name="s14_texte_normal">28sp</dimen>
+    <dimen name="s14_hauteur_case">140dp</dimen>
+</resources>
+<!-- endregion -->

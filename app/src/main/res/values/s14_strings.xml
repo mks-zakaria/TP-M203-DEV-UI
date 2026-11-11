@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/strings.xml : ressources PAR DÉFAUT (français) -->
+<resources>
+    <string name="s14_app_name">Al Amal S14</string>
+    <!-- region etape2 -->
+    <string name="s14_titre_accueil">Bienvenue au cybercafé Al Amal</string>
+    <string name="s14_horaires">Ouvert tous les jours de 9 h à 23 h</string>
+    <string name="s14_reserver">Réserver un poste</string>
+    <!-- %1$s = 1er paramètre (texte), %2$d = 2e paramètre (entier) -->
+    <string name="s14_solde">Bonjour %1$s, il vous reste %2$d minutes.</string>
+    <!-- endregion -->
+
+    <!-- region etape6 -->
+    <string-array name="s14_services">
+        <item>Internet</item>
+        <item>Impression</item>
+        <item>Scanner</item>
+        <item>Salle de jeux</item>
+    </string-array>
+    <plurals name="s14_postes_libres">
+        <item quantity="one">%d poste libre</item>
+        <item quantity="other">%d postes libres</item>
+    </plurals>
+    <!-- endregion -->
+
+    <!-- region etape9 -->
+    <string name="s14_langue_titre">Cybercafé Al Amal</string>
+    <string name="s14_langue_message">Le Wi-Fi est gratuit pour nos clients.</string>
+    <string name="s14_langue_bouton">Se connecter</string>
+    <!-- endregion -->
+
+    <!-- quel dossier a été choisi ? (étapes 7 et 10) -->
+    <string name="s14_dossier_orientation">valeur lue dans res/values</string>
+    <string name="s14_dossier_largeur">dimens lues dans res/values</string>
+</resources>

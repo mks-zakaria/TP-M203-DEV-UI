@@ -1,0 +1,7 @@
+<resources>
+    <string name="s33_app_name">Al Amal S33</string>
+    <string name="s33_reglement">Les postes se réservent à l\'accueil. Merci de garder le silence dans la salle de travail, de ne pas manger devant les ordinateurs et de signaler toute panne à Saïd.</string>
+    <string name="s33_poste_bureau">Poste bureau</string>
+    <string name="s33_poste_gamer">Poste gamer</string>
+    <string name="s33_poste_vip">Poste VIP</string>
+</resources>

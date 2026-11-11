@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- region etape10b -->
+<!-- res/values-sw600dp/integers.xml -->
+<resources>
+    <integer name="s14_colonnes_postes">3</integer>
+</resources>
+<!-- endregion -->

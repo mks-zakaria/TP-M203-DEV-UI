@@ -1,0 +1,31 @@
+<resources>
+    <string name="s25_app_name">Al Amal S25</string>
+    <string name="s25_titre_liste">Touchez un poste :</string>
+    <string name="s25_libre">LIBRE</string>
+    <string name="s25_reserver">Réserver ce poste</string>
+    <string name="s25_retour">Retour</string>
+    <string name="s25_titre_reservation">Réservation</string>
+    <string name="s25_duree">Durée : 1 heure</string>
+    <string name="s25_client">Client : Yassine</string>
+    <string name="s25_confirmer">Confirmer</string>
+    <string name="s25_annuler">Annuler</string>
+    <string name="s25_confirmation">Réservation enregistrée !</string>
+    <string-array name="s25_noms_postes">
+        <item>Poste 7 · Gamer</item>
+        <item>Poste 3 · Bureautique</item>
+        <item>Poste 12 · VIP</item>
+    </string-array>
+    <string-array name="s25_descriptions_postes">
+        <item>Écran 27 pouces, casque, manette.\nIdéal pour les tournois du samedi.</item>
+        <item>Traitement de texte, impression, recherche.\nLe poste préféré de Hayat pour ses CV.</item>
+        <item>Fauteuil, double écran, salle calme.\nRéservé aux clients fidèles comme Mehdi.</item>
+    </string-array>
+    <string-array name="s25_tarifs_postes">
+        <item>Tarif : 10 DH / heure</item>
+        <item>Tarif : 6 DH / heure</item>
+        <item>Tarif : 15 DH / heure</item>
+    </string-array>
+    <string name="s25_nom_cyber">Cybercafé Al Amal</string>
+    <string name="s25_ouvert">OUVERT</string>
+    <string name="s25_voir_postes">Voir les postes</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/integers.xml -->
+<resources>
+    <!-- region etape5 -->
+    <integer name="s14_colonnes_postes">2</integer>
+    <integer name="s14_nombre_postes">8</integer>
+    <!-- endregion -->
+</resources>

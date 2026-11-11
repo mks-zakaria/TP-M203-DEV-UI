@@ -1,0 +1,13 @@
+<resources>
+    <string name="s01_app_name">Al Amal S01</string>
+    <!-- region etape2 -->
+    <string name="s01_bienvenue">Bienvenue au cybercafé Al Amal</string>
+    <string name="s01_horaires"><b>Ouvert 7j/7</b>\nde <i>9 h à 23 h</i></string>
+    <string name="s01_tarif">Poste : 10 DH l\'heure</string>
+    <!-- endregion -->
+    <!-- region etape3 -->
+    <string name="s01_contact">www.alamal.ma\n+212 523 45 67 89\nsaid@alamal.ma</string>
+    <!-- endregion -->
+    <string name="s01_reglement_titre">Règlement du cybercafé</string>
+    <string name="s01_reglement">1. Présentez votre carte à l\'accueil.\n\n2. Un poste par client, sauf travail en binôme.\n\n3. Le temps est compté dès l\'ouverture de la session.\n\n4. Pas de boisson à côté du clavier.\n\n5. Parlez à voix basse : d\'autres clients travaillent.\n\n6. Les impressions se paient à l\'accueil (2 DH la page).\n\n7. Enregistrez vos fichiers sur votre clé USB : les postes sont effacés chaque soir.\n\n8. Ne modifiez pas les réglages des postes.\n\n9. Signalez toute panne à Saïd ou à Hayat.\n\n10. Fermez votre session avant de partir.\n\n11. Les mineurs de moins de 12 ans viennent accompagnés.\n\n12. Merci et bonne navigation !</string>
+</resources>

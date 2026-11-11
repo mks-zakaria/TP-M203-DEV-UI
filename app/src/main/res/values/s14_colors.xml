@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/colors.xml -->
+<resources>
+    <color name="s14_black">#FF000000</color>
+    <color name="s14_white">#FFFFFFFF</color>
+    <color name="s14_orange">#FFE67E22</color>
+    <color name="s14_bleu_nuit">#FF1F2D3D</color>
+    <color name="s14_gris_clair">#FFF2F4F5</color>
+    <color name="s14_rouge">#FFC0392B</color>
+    <color name="s14_vert_clair">#FFD7F0DE</color>
+    <!-- region etape3 -->
+    <!-- #AARRGGBB : AA = opacité (FF opaque … 00 invisible) -->
+    <color name="s14_vert_ofppt">#FF1B7F3B</color>
+    <color name="s14_vert_ofppt_80">#CC1B7F3B</color>
+    <color name="s14_vert_ofppt_50">#801B7F3B</color>
+    <color name="s14_vert_ofppt_20">#331B7F3B</color>
+    <!-- une couleur peut en réutiliser une autre -->
+    <color name="s14_couleur_titre">@color/s14_vert_ofppt</color>
+    <!-- endregion -->
+</resources>

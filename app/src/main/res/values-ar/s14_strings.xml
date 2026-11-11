@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- region etape9c -->
+<!-- res/values-ar/strings.xml : arabe (écrit de droite à gauche) -->
+<resources>
+    <string name="s14_langue_titre">مقهى الإنترنت الأمل</string>
+    <string name="s14_langue_message">الواي فاي مجاني لزبنائنا.</string>
+    <string name="s14_langue_bouton">تسجيل الدخول</string>
+</resources>
+<!-- endregion -->

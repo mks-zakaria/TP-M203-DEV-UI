@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="s18_black">#FF000000</color>
+    <color name="s18_white">#FFFFFFFF</color>
+    <color name="s18_vert_ofppt">#FF1B7F3B</color>
+    <color name="s18_vert_clair">#FFD7F0DE</color>
+    <color name="s18_orange">#FFE67E22</color>
+    <color name="s18_bleu_nuit">#FF1F2D3D</color>
+    <color name="s18_gris_clair">#FFF2F4F5</color>
+    <color name="s18_rouge">#FFC0392B</color>
+    <color name="s18_voile">#D9000000</color>
+    <color name="s18_jaune">#FFF1C40F</color>
+</resources>

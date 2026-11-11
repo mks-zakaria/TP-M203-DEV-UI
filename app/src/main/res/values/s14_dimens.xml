@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/dimens.xml : tailles par défaut (téléphone) -->
+<resources>
+    <!-- region etape4 -->
+    <dimen name="s14_marge_ecran">16dp</dimen>
+    <dimen name="s14_espace">12dp</dimen>
+    <dimen name="s14_texte_titre">26sp</dimen>
+    <dimen name="s14_texte_normal">20sp</dimen>
+    <dimen name="s14_hauteur_case">96dp</dimen>
+    <!-- endregion -->
+</resources>

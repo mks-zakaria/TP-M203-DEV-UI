@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- region etape7 -->
+<!-- res/values-land/integers.xml : seulement ce qui CHANGE en paysage -->
+<resources>
+    <integer name="s14_colonnes_postes">4</integer>
+</resources>
+<!-- endregion -->
