@@ -14,8 +14,8 @@ les TP) et, pour chaque TP, ses **textes, couleurs, dimensions et styles** (`res
 ## 1. Récupérer le projet (une seule fois, à la maison, avec Internet)
 
 1. Récupérez le dépôt :
-   - avec Git : `git clone https://github.com/mks-zakaria/TP-M203-DEV-UI-STUDENTS.git` ;
-   - ou sur https://github.com/mks-zakaria/TP-M203-DEV-UI-STUDENTS : **Code › Download ZIP**, puis décompressez le dossier.
+   - avec Git : `git clone https://github.com/mks-zakaria/TP-M203-DEV-UI.git` ;
+   - ou sur https://github.com/mks-zakaria/TP-M203-DEV-UI : **Code › Download ZIP**, puis décompressez le dossier.
 2. Android Studio → **File › Open…** → choisissez le dossier du projet (celui qui contient `settings.gradle.kts`)
    → **Trust Project**.
 3. Attendez la fin de la synchronisation Gradle (barre de progression en bas à droite).
