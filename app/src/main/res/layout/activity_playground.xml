@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Playground : écrivez ici le layout des exemples du cours -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="24dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Playground : testez ici les exemples du cours"
-        android:textSize="18sp" />
+        android:text="Touchez la tasse pour commander"
+        android:textSize="22sp" />
 
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/s01_ic_cafe"
+        android:contentDescription="Commander un café"
+        android:onClick="commanderCafe" />
+
+    <TextView
+        android:id="@+id/txtCommande"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp" />
 </LinearLayout>

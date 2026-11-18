@@ -1,6 +1,10 @@
 package ma.ofppt.ista.alamal
 
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 // MODE COURS (Playground) : écran VIDE pour tester en direct les exemples montrés en cours.
@@ -10,7 +14,12 @@ class PlaygroundActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_playground)
 
-        // Votre code ici
+
+
+    }
+    fun commanderCafe(v: View){
+        var n = 0
+        n++
 
     }
 }
