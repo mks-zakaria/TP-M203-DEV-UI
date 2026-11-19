@@ -18,7 +18,7 @@ class PlaygroundActivity : AppCompatActivity() {
 
     }
     fun commanderCafe(v: View){
-        var n = 0
+        var n = 10
         n++
 
     }
