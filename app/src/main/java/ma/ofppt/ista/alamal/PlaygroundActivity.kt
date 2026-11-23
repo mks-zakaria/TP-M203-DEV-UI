@@ -1,13 +1,10 @@
 package ma.ofppt.ista.alamal
 
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
-import android.widget.EditText
-import android.widget.ImageView
+import android.widget.CheckBox
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 // MODE COURS (Playground) : écran VIDE pour tester en direct les exemples montrés en cours.
 // Écrivez le layout dans res/layout/activity_playground.xml et le code Kotlin ci-dessous, dans onCreate.
@@ -17,28 +14,28 @@ class PlaygroundActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_playground)
 
-        val btn = findViewById<Button>(R.id.btnEntrer)
-        val txtPrenom = findViewById<EditText>(R.id.edtPrenom)
-        val txtAffichage = findViewById<TextView>(R.id.txtSalut)
-        val btnFloat = findViewById<FloatingActionButton>(R.id.fabNouveau)
-
-
+        // Etape 01 : checkBoxes
+        val imp = findViewById<CheckBox>(R.id.chkImpression)
+        val casque = findViewById<CheckBox>(R.id.chkCasque)
+        val scaneer = findViewById<CheckBox>(R.id.chkScanner)
+        val btn = findViewById<Button>(R.id.btnTotal)
+        val txtTotale = findViewById<TextView>(R.id.txtTotal)
         btn.setOnClickListener {
-            if (txtPrenom.text.toString().trim().isEmpty()){
-                txtPrenom.error = "Entrer votre prenom !!"
-                txtPrenom.requestFocus()
-            } else {
-                txtAffichage.text = "Bienvenue ${txtPrenom.text.toString()}   , acceder au poste numero 3"
+            var prix = 0
+            var options = 0
+            if (imp.isChecked) {
+                prix += 2
+                options++
             }
-
-        }
-
-        btnFloat.setOnClickListener {
-            txtAffichage.text = null
-            txtPrenom.text = null
-            txtPrenom.error = null
-            txtPrenom.clearFocus()
+            if (casque.isChecked) {
+                prix += 2
+                options++
+            }
+            if (scaneer.isChecked) {
+                prix += 2
+                options++
+            }
+            txtTotale.text = "$options Options(s): $prix DH"
         }
     }
-
 }
