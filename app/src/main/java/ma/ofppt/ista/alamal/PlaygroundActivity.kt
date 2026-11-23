@@ -27,7 +27,17 @@ class PlaygroundActivity : AppCompatActivity() {
             if (txtPrenom.text.toString().trim().isEmpty()){
                 txtPrenom.error = "Entrer votre prenom !!"
                 txtPrenom.requestFocus()
+            } else {
+                txtAffichage.text = "Bienvenue ${txtPrenom.text.toString()}   , acceder au poste numero 3"
             }
+
+        }
+
+        btnFloat.setOnClickListener {
+            txtAffichage.text = null
+            txtPrenom.text = null
+            txtPrenom.error = null
+            txtPrenom.clearFocus()
         }
     }
 
