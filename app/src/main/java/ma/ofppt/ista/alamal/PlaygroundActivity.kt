@@ -1,6 +1,7 @@
 package ma.ofppt.ista.alamal
 
 import android.os.Bundle
+import android.widget.Spinner
 import android.widget.TextView
 import android.widget.ToggleButton
 import androidx.appcompat.app.AppCompatActivity
@@ -48,25 +49,33 @@ class PlaygroundActivity : AppCompatActivity() {
 //                R.id.rad120 -> txtForfait.text = "Forfait 18 min, 18 DH"
 //            }
 //        }
+//
+//
+//        val normalSwitch = findViewById<ToggleButton>(R.id.tglClim)
+//        val materialSwitch = findViewById<MaterialSwitch>(R.id.swSilence)
+//        val txtAffichage = findViewById<TextView>(R.id.txtEtat)
+//
+//        normalSwitch.setOnCheckedChangeListener { _, ischecked ->
+//            if (ischecked)
+//                txtAffichage.text = "Climatisation On"
+//            else
+//                txtAffichage.text = "Climatisation Off"
+//
+//        }
+//
+//        materialSwitch.setOnCheckedChangeListener { _, ischecked ->
+//            if (ischecked)
+//                txtAffichage.text = "Mode silence: On"
+//            else
+//                txtAffichage.text = "Mode silence: Off"
+//        }
+
+        val sp01 = findViewById<Spinner>(R.id.spPoste)
+        val txtPost = findViewById<TextView>(R.id.txtPoste)
+
+        sp01.OnItemSelectedListener = 
 
 
-        val normalSwitch = findViewById<ToggleButton>(R.id.tglClim)
-        val materialSwitch = findViewById<MaterialSwitch>(R.id.swSilence)
-        val txtAffichage = findViewById<TextView>(R.id.txtEtat)
 
-        normalSwitch.setOnCheckedChangeListener { _, ischecked ->
-            if (ischecked)
-                txtAffichage.text = "Climatisation On"
-            else
-                txtAffichage.text = "Climatisation Off"
-
-        }
-
-        materialSwitch.setOnCheckedChangeListener { _, ischecked ->
-            if (ischecked)
-                txtAffichage.text = "Mode silence: On"
-            else
-                txtAffichage.text = "Mode silence: Off"
-        }
     }
 }
