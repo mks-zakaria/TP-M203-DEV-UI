@@ -3,6 +3,7 @@ package ma.ofppt.ista.alamal
 import android.os.Bundle
 import android.widget.Button
 import android.widget.CheckBox
+import android.widget.RadioGroup
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -15,27 +16,39 @@ class PlaygroundActivity : AppCompatActivity() {
         setContentView(R.layout.activity_playground)
 
         // Etape 01 : checkBoxes
-        val imp = findViewById<CheckBox>(R.id.chkImpression)
-        val casque = findViewById<CheckBox>(R.id.chkCasque)
-        val scaneer = findViewById<CheckBox>(R.id.chkScanner)
-        val btn = findViewById<Button>(R.id.btnTotal)
-        val txtTotale = findViewById<TextView>(R.id.txtTotal)
-        btn.setOnClickListener {
-            var prix = 0
-            var options = 0
-            if (imp.isChecked) {
-                prix += 2
-                options++
+//        val imp = findViewById<CheckBox>(R.id.chkImpression)
+//        val casque = findViewById<CheckBox>(R.id.chkCasque)
+//        val scaneer = findViewById<CheckBox>(R.id.chkScanner)
+//        val btn = findViewById<Button>(R.id.btnTotal)
+//        val txtTotale = findViewById<TextView>(R.id.txtTotal)
+//        btn.setOnClickListener {
+//            var prix = 0
+//            var options = 0
+//            if (imp.isChecked) {
+//                prix += 2
+//                options++
+//            }
+//            if (casque.isChecked) {
+//                prix += 2
+//                options++
+//            }
+//            if (scaneer.isChecked) {
+//                prix += 2
+//                options++
+//            }
+//            txtTotale.text = "$options Options(s): $prix DH"
+//        }
+
+        // Etape 02 : radioButtons
+        val radioGroup = findViewById<RadioGroup>(R.id.grpForfait)
+        val txtForfait = findViewById<TextView>(R.id.txtForfait)
+        radioGroup.setOnCheckedChangeListener { group, id ->
+            when(id) {
+                R.id.rad30 -> txtForfait.text = "Forfait 30 min, 6 DH"
+                R.id.rad60 -> txtForfait.text = "Forfait 60 min, 10 DH"
+                R.id.rad120 -> txtForfait.text = "Forfait 18 min, 18 DH"
             }
-            if (casque.isChecked) {
-                prix += 2
-                options++
-            }
-            if (scaneer.isChecked) {
-                prix += 2
-                options++
-            }
-            txtTotale.text = "$options Options(s): $prix DH"
         }
+
     }
 }
