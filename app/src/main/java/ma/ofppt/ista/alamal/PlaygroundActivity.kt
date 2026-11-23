@@ -1,11 +1,10 @@
 package ma.ofppt.ista.alamal
 
 import android.os.Bundle
-import android.widget.Button
-import android.widget.CheckBox
-import android.widget.RadioGroup
 import android.widget.TextView
+import android.widget.ToggleButton
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.materialswitch.MaterialSwitch
 
 // MODE COURS (Playground) : écran VIDE pour tester en direct les exemples montrés en cours.
 // Écrivez le layout dans res/layout/activity_playground.xml et le code Kotlin ci-dessous, dans onCreate.
@@ -40,15 +39,34 @@ class PlaygroundActivity : AppCompatActivity() {
 //        }
 
         // Etape 02 : radioButtons
-        val radioGroup = findViewById<RadioGroup>(R.id.grpForfait)
-        val txtForfait = findViewById<TextView>(R.id.txtForfait)
-        radioGroup.setOnCheckedChangeListener { group, id ->
-            when(id) {
-                R.id.rad30 -> txtForfait.text = "Forfait 30 min, 6 DH"
-                R.id.rad60 -> txtForfait.text = "Forfait 60 min, 10 DH"
-                R.id.rad120 -> txtForfait.text = "Forfait 18 min, 18 DH"
-            }
+//        val radioGroup = findViewById<RadioGroup>(R.id.grpForfait)
+//        val txtForfait = findViewById<TextView>(R.id.txtForfait)
+//        radioGroup.setOnCheckedChangeListener { group, id ->
+//            when(id) {
+//                R.id.rad30 -> txtForfait.text = "Forfait 30 min, 6 DH"
+//                R.id.rad60 -> txtForfait.text = "Forfait 60 min, 10 DH"
+//                R.id.rad120 -> txtForfait.text = "Forfait 18 min, 18 DH"
+//            }
+//        }
+
+
+        val normalSwitch = findViewById<ToggleButton>(R.id.tglClim)
+        val materialSwitch = findViewById<MaterialSwitch>(R.id.swSilence)
+        val txtAffichage = findViewById<TextView>(R.id.txtEtat)
+
+        normalSwitch.setOnCheckedChangeListener { _, ischecked ->
+            if (ischecked)
+                txtAffichage.text = "Climatisation On"
+            else
+                txtAffichage.text = "Climatisation Off"
+
         }
 
+        materialSwitch.setOnCheckedChangeListener { _, ischecked ->
+            if (ischecked)
+                txtAffichage.text = "Mode silence: On"
+            else
+                txtAffichage.text = "Mode silence: Off"
+        }
     }
 }

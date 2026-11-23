@@ -5,83 +5,105 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PlaygroundActivity"
     android:orientation="vertical"
-    >
+    tools:context=".PlaygroundActivity">
 
-<!--    Etape 01 : CheckBox-->
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Options (2 DH chacune)"-->
-<!--        android:textSize="24sp"-->
-<!--        android:textStyle="bold" />-->
-<!--    <CheckBox-->
-<!--        android:id="@+id/chkImpression"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Impression"-->
-<!--        android:textSize="22sp" />-->
-<!--    <CheckBox-->
-<!--        android:id="@+id/chkCasque"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Casque audio"-->
-<!--        android:textSize="22sp" />-->
-<!--    <CheckBox-->
-<!--        android:id="@+id/chkScanner"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Scanner"-->
-<!--        android:textSize="22sp" />-->
+    <!--    Etape 01 : CheckBox-->
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Options (2 DH chacune)"-->
+    <!--        android:textSize="24sp"-->
+    <!--        android:textStyle="bold" />-->
+    <!--    <CheckBox-->
+    <!--        android:id="@+id/chkImpression"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Impression"-->
+    <!--        android:textSize="22sp" />-->
+    <!--    <CheckBox-->
+    <!--        android:id="@+id/chkCasque"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Casque audio"-->
+    <!--        android:textSize="22sp" />-->
+    <!--    <CheckBox-->
+    <!--        android:id="@+id/chkScanner"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Scanner"-->
+    <!--        android:textSize="22sp" />-->
 
-<!--    <Button-->
-<!--        android:id="@+id/btnTotal"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Calculer" />-->
-<!--    <TextView-->
-<!--        android:id="@+id/txtTotal"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:textSize="22sp" />-->
+    <!--    <Button-->
+    <!--        android:id="@+id/btnTotal"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Calculer" />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/txtTotal"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="22sp" />-->
 
+    <!--    Etape 02 radio buttons-->
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Forfait"-->
+    <!--        android:textSize="24sp"-->
+    <!--        android:textStyle="bold" />-->
+    <!--    <RadioGroup-->
+    <!--        android:id="@+id/grpForfait"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content">-->
+    <!--    <RadioButton-->
+    <!--        android:id="@+id/rad30"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="30 min : 6 DH"-->
+    <!--        android:textSize="22sp" />-->
+    <!--    <RadioButton-->
+    <!--        android:id="@+id/rad60"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="1 heure : 10 DH"-->
+    <!--        android:textSize="22sp" />-->
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/rad120"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="2 heures : 18 DH"-->
+    <!--            android:textSize="22sp" />-->
+    <!--    </RadioGroup>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/txtForfait"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Choisissez un forfait"-->
+    <!--        android:textSize="22sp" />-->
+
+    <!-- Étape 3 — ToggleButton et Switch : marche ou arrêt -->
+    <ToggleButton
+        android:id="@+id/tglClim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Clim : OFF"
+        android:textOn="Clim : ON"
+        android:textSize="20sp" />
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/swSilence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mode silencieux"
+        android:textSize="22sp" />
 
     <TextView
+        android:id="@+id/txtEtat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forfait"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-    <RadioGroup
-        android:id="@+id/grpForfait"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    <RadioButton
-        android:id="@+id/rad30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="30 min : 6 DH"
-        android:textSize="22sp" />
-    <RadioButton
-        android:id="@+id/rad60"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="1 heure : 10 DH"
-        android:textSize="22sp" />
-
-        <RadioButton
-            android:id="@+id/rad120"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2 heures : 18 DH"
-            android:textSize="22sp" />
-    </RadioGroup>
-    <TextView
-        android:id="@+id/txtForfait"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Choisissez un forfait"
+        android:text="Clim éteinte, son activé"
         android:textSize="22sp" />
 
 </LinearLayout>
