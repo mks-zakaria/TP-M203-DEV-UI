@@ -1,75 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
 
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="24dp">
-
-        <ImageView
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:layout_gravity="center_horizontal"
-            android:src="@drawable/s01_ic_poste"
-            android:contentDescription="Logo du cybercafé" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/s01_bienvenue"
-            android:textSize="26sp"
-            android:textStyle="bold"
-            android:textColor="#1B7A3E" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/s01_horaires"
-            android:textSize="20sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/s01_tarif"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/txtPrenom"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="Votre prénom"
-            android:inputType="textPersonName"
-            android:textSize="22sp" />
-
-        <Button
-            android:id="@+id/btnEntrer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Entrer"
-            android:textSize="20sp" />
-
-        <TextView
-            android:id="@+id/txtSalut"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:textSize="22sp" />
-    </LinearLayout>
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fabNouveau"
+    <!-- Étape 1 — options (CheckBox) : chaque case se coche à part -->
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="24dp"
-        android:src="@drawable/s01_ic_ajouter"
-        android:contentDescription="Nouveau client" />
-</FrameLayout>
+        android:text="Options (2 DH chacune)"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <CheckBox
+        android:id="@+id/chkImpression"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Impression"
+        android:textSize="22sp" />
+    <CheckBox
+        android:id="@+id/chkCasque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Casque audio"
+        android:textSize="22sp" />
+    <CheckBox
+        android:id="@+id/chkScanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scanner"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculer" />
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp" />
+
+</LinearLayout>
