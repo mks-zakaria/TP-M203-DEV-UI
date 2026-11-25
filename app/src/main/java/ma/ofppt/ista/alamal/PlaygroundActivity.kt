@@ -1,8 +1,9 @@
 package ma.ofppt.ista.alamal
 
 import android.os.Bundle
-import android.view.Menu
+import android.view.ContextMenu
 import android.view.MenuItem
+import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -123,21 +124,48 @@ class PlaygroundActivity : AppCompatActivity() {
 //        btnVider.setOnClickListener {
 //            adaptateur01.clear()
 //        }
+
+        // etape 06: menu contextuell
+        val textDeContext = findViewById<TextView>(R.id.txtPoste3)
+        registerForContextMenu(textDeContext)
+        // fin menu contextuelle
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.s02_menu_action, menu)
-        return true
+    // menu des options
+//    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+//        menuInflater.inflate(R.menu.s02_menu_action, menu)
+//        return true
+//    }
+//
+//    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+//        val t = findViewById<TextView>(R.id.txtMenu)
+//        t.setOnLo
+//        when (item.itemId) {
+//            R.id.menu_tarifs -> t.text = "Voialaaa les tarifs !!"
+//            R.id.menu_aide -> t.text = "Appelez 070809019 pour laide"
+//            R.id.menu_apropos -> t.text = "Nous sommes CyberCafe"
+//        }
+//        return true
+//    }
+    // fin menu des options
+
+    //debut de menu contextuel
+    override fun onCreateContextMenu(
+        menu: ContextMenu?,
+        v: View?,
+        menuInfo: ContextMenu.ContextMenuInfo?
+    ) {
+        menuInflater.inflate(R.menu.s02_menu_poste, menu)
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val t = findViewById<TextView>(R.id.txtMenu)
-        t.setOnLo
+    override fun onContextItemSelected(item: MenuItem): Boolean {
+        val textAffichage = findViewById<TextView>(R.id.txtContexte)
         when (item.itemId) {
-            R.id.menu_tarifs -> t.text = "Voialaaa les tarifs !!"
-            R.id.menu_aide -> t.text = "Appelez 070809019 pour laide"
-            R.id.menu_apropos -> t.text = "Nous sommes CyberCafe"
+            R.id.poste_prolonger -> textAffichage.text = "Vous avez pronolger avec succees !"
+            R.id.poste_liberer -> textAffichage.text = "Vous avez liberer avec succees !"
         }
         return true
     }
+    // fin de menu contextuelle
+
 }
