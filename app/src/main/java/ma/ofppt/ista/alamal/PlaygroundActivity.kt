@@ -1,7 +1,9 @@
 package ma.ofppt.ista.alamal
 
 import android.os.Bundle
+import android.view.ActionMode
 import android.view.ContextMenu
+import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.TextView
@@ -126,9 +128,14 @@ class PlaygroundActivity : AppCompatActivity() {
 //        }
 
         // etape 06: menu contextuell
-        val textDeContext = findViewById<TextView>(R.id.txtPoste3)
-        registerForContextMenu(textDeContext)
+//        val textDeContext = findViewById<TextView>(R.id.txtPoste3)
+//        registerForContextMenu(textDeContext)
         // fin menu contextuelle
+        val txtRes = findViewById<TextView>(R.id.txtResa)
+        txtRes.setOnLongClickListener {
+            txtRes.isSelected = true
+            startSupportActionMode(ClassDeCallBack)
+        }
     }
 
     // menu des options
@@ -150,22 +157,48 @@ class PlaygroundActivity : AppCompatActivity() {
     // fin menu des options
 
     //debut de menu contextuel
-    override fun onCreateContextMenu(
-        menu: ContextMenu?,
-        v: View?,
-        menuInfo: ContextMenu.ContextMenuInfo?
-    ) {
-        menuInflater.inflate(R.menu.s02_menu_poste, menu)
-    }
-
-    override fun onContextItemSelected(item: MenuItem): Boolean {
-        val textAffichage = findViewById<TextView>(R.id.txtContexte)
-        when (item.itemId) {
-            R.id.poste_prolonger -> textAffichage.text = "Vous avez pronolger avec succees !"
-            R.id.poste_liberer -> textAffichage.text = "Vous avez liberer avec succees !"
-        }
-        return true
-    }
+//    override fun onCreateContextMenu(
+//        menu: ContextMenu?,
+//        v: View?,
+//        menuInfo: ContextMenu.ContextMenuInfo?
+//    ) {
+//        menuInflater.inflate(R.menu.s02_menu_poste, menu)
+//    }
+//
+//    override fun onContextItemSelected(item: MenuItem): Boolean {
+//        val textAffichage = findViewById<TextView>(R.id.txtContexte)
+//        when (item.itemId) {
+//            R.id.poste_prolonger -> textAffichage.text = "Vous avez pronolger avec succees !"
+//            R.id.poste_liberer -> textAffichage.text = "Vous avez liberer avec succees !"
+//        }
+//        return true
+//    }
     // fin de menu contextuelle
 
+}
+class ClassDeCallBack : ActionMode.Callback {
+    override fun onActionItemClicked(
+        mode: ActionMode?,
+        item: MenuItem?
+    ): Boolean {
+        TODO("Not yet implemented")
+    }
+
+    override fun onCreateActionMode(
+        mode: ActionMode?,
+        menu: Menu?
+    ): Boolean {
+        TODO("Not yet implemented")
+    }
+
+    override fun onDestroyActionMode(mode: ActionMode?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onPrepareActionMode(
+        mode: ActionMode?,
+        menu: Menu?
+    ): Boolean {
+        TODO("Not yet implemented")
+    }
 }
