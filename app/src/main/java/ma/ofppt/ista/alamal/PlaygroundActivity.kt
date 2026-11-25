@@ -1,11 +1,8 @@
 package ma.ofppt.ista.alamal
 
 import android.os.Bundle
-import android.view.View
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.Button
-import android.widget.Spinner
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -73,58 +70,74 @@ class PlaygroundActivity : AppCompatActivity() {
 //        }
 
 //        etape 04: les spinners
-        val sp01 = findViewById<Spinner>(R.id.spPoste)
-        val txtPost = findViewById<TextView>(R.id.txtPoste)
+//        val sp01 = findViewById<Spinner>(R.id.spPoste)
+//        val txtPost = findViewById<TextView>(R.id.txtPoste)
+//
+//        sp01.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+//            override fun onItemSelected(
+//                parent: AdapterView<*>?,
+//                view: View?,
+//                position: Int,
+//                id: Long
+//            ) {
+//                val tempText = parent?.getItemAtPosition(position).toString()
+//                txtPost.text = "Vous avez choisi : $tempText"
+//            }
+//
+//            override fun onNothingSelected(parent: AdapterView<*>?) {
+//                TODO("Not yet implemented")
+//            }
+//        }
+//        // 00 acceder au elements par id
+//        val sp02 = findViewById<Spinner>(R.id.spPosteCode)
+//        val txtPost02 = findViewById<TextView>(R.id.txtPosteCode)
+//        // 01 liste des choix  Poste01 Poste02 Poste03
+//        val postes = mutableListOf("Poste01", "Poste02", "Poste03")
+//        val lstPosteFromRessources = resources.getStringArray(R.array.s02_postes).toList()
+//        // 02 declarer un adaptateur et adapter la liste
+//        val adaptateur01 = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, postes)
+//        val adaptateur02 = ArrayAdapter(
+//            this,
+//            android.R.layout.simple_spinner_dropdown_item,
+//            lstPosteFromRessources
+//        )
+//        // 03 utiliser ladaptateur dans le spinner
+//        sp02.adapter = adaptateur01
+//        // 05 changer le text en fonction du spinner
+//        sp02.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+//            override fun onItemSelected(
+//                parent: AdapterView<*>?,
+//                view: View?,
+//                position: Int,
+//                id: Long
+//            ) {
+//                txtPost02.text = parent?.getItemAtPosition(position).toString()
+//            }
+//
+//            override fun onNothingSelected(parent: AdapterView<*>?) {
+//                txtPost02.text = "Aucun poste choici"
+//            }
+//        }
+//        // 04 on click listener dans la button vider la liste
+//        val btnVider = findViewById<Button>(R.id.btnVider)
+//        btnVider.setOnClickListener {
+//            adaptateur01.clear()
+//        }
+    }
 
-        sp01.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(
-                parent: AdapterView<*>?,
-                view: View?,
-                position: Int,
-                id: Long
-            ) {
-                val tempText = parent?.getItemAtPosition(position).toString()
-                txtPost.text = "Vous avez choisi : $tempText"
-            }
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.s02_menu_action, menu)
+        return true
+    }
 
-            override fun onNothingSelected(parent: AdapterView<*>?) {
-                TODO("Not yet implemented")
-            }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val t = findViewById<TextView>(R.id.txtMenu)
+        t.setOnLo
+        when (item.itemId) {
+            R.id.menu_tarifs -> t.text = "Voialaaa les tarifs !!"
+            R.id.menu_aide -> t.text = "Appelez 070809019 pour laide"
+            R.id.menu_apropos -> t.text = "Nous sommes CyberCafe"
         }
-        // 00 acceder au elements par id
-        val sp02 = findViewById<Spinner>(R.id.spPosteCode)
-        val txtPost02 = findViewById<TextView>(R.id.txtPosteCode)
-        // 01 liste des choix  Poste01 Poste02 Poste03
-        val postes = mutableListOf("Poste01", "Poste02", "Poste03")
-        val lstPosteFromRessources = resources.getStringArray(R.array.s02_postes).toList()
-        // 02 declarer un adaptateur et adapter la liste
-        val adaptateur01 = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, postes)
-        val adaptateur02 = ArrayAdapter(
-            this,
-            android.R.layout.simple_spinner_dropdown_item,
-            lstPosteFromRessources
-        )
-        // 03 utiliser ladaptateur dans le spinner
-        sp02.adapter = adaptateur01
-        // 05 changer le text en fonction du spinner
-        sp02.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(
-                parent: AdapterView<*>?,
-                view: View?,
-                position: Int,
-                id: Long
-            ) {
-                txtPost02.text = parent?.getItemAtPosition(position).toString()
-            }
-
-            override fun onNothingSelected(parent: AdapterView<*>?) {
-                txtPost02.text = "Aucun poste choici"
-            }
-        }
-        // 04 on click listener dans la button vider la liste
-        val btnVider = findViewById<Button>(R.id.btnVider)
-        btnVider.setOnClickListener {
-            adaptateur01.clear()
-        }
+        return true
     }
 }
