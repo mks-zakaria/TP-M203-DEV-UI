@@ -84,25 +84,67 @@
     <!--    etape o3 : checkBox-->
 
     <!-- Étape 3 — ToggleButton et Switch : marche ou arrêt -->
-    <ToggleButton
-        android:id="@+id/tglClim"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textOff="Clim : OFF"
-        android:textOn="Clim : ON"
-        android:textSize="20sp" />
+<!--    <ToggleButton-->
+<!--        android:id="@+id/tglClim"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textOff="Clim : OFF"-->
+<!--        android:textOn="Clim : ON"-->
+<!--        android:textSize="20sp" />-->
 
-    <com.google.android.material.materialswitch.MaterialSwitch
-        android:id="@+id/swSilence"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mode silencieux"
-        android:textSize="22sp" />
+<!--    <com.google.android.material.materialswitch.MaterialSwitch-->
+<!--        android:id="@+id/swSilence"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/s01_tarif"-->
+<!--        android:textSize="22sp" />-->
 
+<!--    <TextView-->
+<!--        android:id="@+id/txtEtat"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Clim éteinte, son activé"-->
+<!--        android:textSize="22sp" />-->
+
+<!--    Etape 04 les spinners -->
+    <!-- Étape 4 — liste déroulante (Spinner) pour choisir le poste -->
     <TextView
-        android:id="@+id/txtEtat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Clim éteinte, son activé"
+        android:text="Poste souhaité"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spPoste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="56dp"
+        android:entries="@array/s02_postes" />
+    <TextView
+        android:id="@+id/txtPoste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Poste (liste remplie par le code)"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spPosteCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="56dp" />
+    <Button
+        android:id="@+id/btnVider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vider la liste" />
+    <TextView
+        android:id="@+id/txtPosteCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:textSize="22sp" />
 </LinearLayout>
