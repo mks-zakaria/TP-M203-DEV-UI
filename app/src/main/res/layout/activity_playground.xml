@@ -84,67 +84,99 @@
     <!--    etape o3 : checkBox-->
 
     <!-- Étape 3 — ToggleButton et Switch : marche ou arrêt -->
-<!--    <ToggleButton-->
-<!--        android:id="@+id/tglClim"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:textOff="Clim : OFF"-->
-<!--        android:textOn="Clim : ON"-->
-<!--        android:textSize="20sp" />-->
+    <!--    <ToggleButton-->
+    <!--        android:id="@+id/tglClim"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textOff="Clim : OFF"-->
+    <!--        android:textOn="Clim : ON"-->
+    <!--        android:textSize="20sp" />-->
 
-<!--    <com.google.android.material.materialswitch.MaterialSwitch-->
-<!--        android:id="@+id/swSilence"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/s01_tarif"-->
-<!--        android:textSize="22sp" />-->
+    <!--    <com.google.android.material.materialswitch.MaterialSwitch-->
+    <!--        android:id="@+id/swSilence"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/s01_tarif"-->
+    <!--        android:textSize="22sp" />-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/txtEtat"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Clim éteinte, son activé"-->
-<!--        android:textSize="22sp" />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/txtEtat"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Clim éteinte, son activé"-->
+    <!--        android:textSize="22sp" />-->
 
-<!--    Etape 04 les spinners -->
+    <!--    Etape 04 les spinners -->
     <!-- Étape 4 — liste déroulante (Spinner) pour choisir le poste -->
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Poste souhaité"-->
+    <!--        android:textSize="24sp"-->
+    <!--        android:textStyle="bold" />-->
+    <!--    <Spinner-->
+    <!--        android:id="@+id/spPoste"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:minHeight="56dp"-->
+    <!--        android:entries="@array/s02_postes" />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/txtPoste"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="22sp" />-->
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:text="Poste (liste remplie par le code)"-->
+    <!--        android:textSize="24sp"-->
+    <!--        android:textStyle="bold" />-->
+    <!--    <Spinner-->
+    <!--        android:id="@+id/spPosteCode"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:minHeight="56dp" />-->
+    <!--    <Button-->
+    <!--        android:id="@+id/btnVider"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Vider la liste" />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/txtPosteCode"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="22sp" />-->
+
+    <!--    etape 05 : menu doptions-->
+<!--    <TextView-->
+<!--        android:id="@+id/txtMenu"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Toucher les 3 points pour selectionner une option !"-->
+<!--        android:textSize="22sp" />-->
+
+    <!-- Étape 6 — menu contextuel : appui long sur le poste 3 -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Poste souhaité"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-    <Spinner
-        android:id="@+id/spPoste"
+        android:text="Appui long sur un poste :"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtPoste3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="56dp"
-        android:entries="@array/s02_postes" />
+        android:layout_marginTop="16dp"
+        android:background="#E8F5E9"
+        android:padding="16dp"
+        android:text="Poste 3 · Yassine · 25 min restantes"
+        android:textSize="22sp" />
+
     <TextView
-        android:id="@+id/txtPoste"
+        android:id="@+id/txtContexte"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="22sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Poste (liste remplie par le code)"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-    <Spinner
-        android:id="@+id/spPosteCode"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="56dp" />
-    <Button
-        android:id="@+id/btnVider"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Vider la liste" />
-    <TextView
-        android:id="@+id/txtPosteCode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="22sp" />
+
 </LinearLayout>
