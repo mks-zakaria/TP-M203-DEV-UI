@@ -157,26 +157,49 @@
 <!--        android:textSize="22sp" />-->
 
     <!-- Étape 6 — menu contextuel : appui long sur le poste 3 -->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Appui long sur un poste :"-->
+<!--        android:textSize="20sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtPoste3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:background="#E8F5E9"-->
+<!--        android:padding="16dp"-->
+<!--        android:text="Poste 3 · Yassine · 25 min restantes"-->
+<!--        android:textSize="22sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtContexte"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="22sp" />-->
+    <!-- Étape 7 — barre d'action contextuelle : appui long sur la réservation -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Appui long sur un poste :"
+        android:text="Appui long sur la réservation :"
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/txtPoste3"
+        android:id="@+id/txtResa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="#E8F5E9"
         android:padding="16dp"
-        android:text="Poste 3 · Yassine · 25 min restantes"
+        android:text="Réservation · Hayat · Poste 5 · 15 h"
         android:textSize="22sp" />
 
     <TextView
-        android:id="@+id/txtContexte"
+        android:id="@+id/txtAction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="22sp" />
+
 
 </LinearLayout>

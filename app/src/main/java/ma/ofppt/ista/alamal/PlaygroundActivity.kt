@@ -1,11 +1,14 @@
 package ma.ofppt.ista.alamal
 
 import android.os.Bundle
+
 import android.view.ContextMenu
+import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.view.ActionMode
 
 // MODE COURS (Playground) : écran VIDE pour tester en direct les exemples montrés en cours.
 // Écrivez le layout dans res/layout/activity_playground.xml et le code Kotlin ci-dessous, dans onCreate.
@@ -115,9 +118,20 @@ class PlaygroundActivity : AppCompatActivity() {
 //        }
         // fin des spinners
         // etape 05 le menu contextuel
-        val a = findViewById<TextView>(R.id.txtPoste3)
-        registerForContextMenu(a)
+//        val a = findViewById<TextView>(R.id.txtPoste3)
+//        registerForContextMenu(a)
+        // fin de menu contextuell
+            // casting entre les type de base + cree
+           // types de casting
+        // menu daction + context
+        val txtRes = findViewById<TextView>(R.id.txtResa)
+        txtRes.setOnLongClickListener {
+            startSupportActionMode(RapRes())
+
+            true
+        }
     }
+
 
 //    // menu doptions
 //    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -142,20 +156,48 @@ class PlaygroundActivity : AppCompatActivity() {
 
 
     // menu contxtuelle
-    override fun onCreateContextMenu(
-        menu: ContextMenu?,
-        v: View?,
-        menuInfo: ContextMenu.ContextMenuInfo?
-    ) {
-        menuInflater.inflate(R.menu.s02_menu_poste, menu)
-    }
+//    override fun onCreateContextMenu(
+//        menu: ContextMenu?,
+//        v: View?,
+//        menuInfo: ContextMenu.ContextMenuInfo?
+//    ) {
+//        menuInflater.inflate(R.menu.s02_menu_poste, menu)
+//    }
+//
+//    override fun onContextItemSelected(item: MenuItem): Boolean {
+//        val txtContexte = findViewById<TextView>(R.id.txtContexte)
+//        if (item.itemId == R.id.poste_prolonger)
+//            txtContexte.text = "Poste prolongee avec succeess!!"
+//        else
+//            txtContexte.text = "Poste Libérer avec succeess!!"
+//        return true
+//    }
+    // fin de menu contextuelle
+}
 
-    override fun onContextItemSelected(item: MenuItem): Boolean {
-        val txtContexte = findViewById<TextView>(R.id.txtContexte)
-        if (item.itemId == R.id.poste_prolonger)
-            txtContexte.text = "Poste prolongee avec succeess!!"
-        else
-            txtContexte.text = "Poste Libérer avec succeess!!"
+
+class RapRes(): ActionMode.Callback {
+    override fun onActionItemClicked(
+        mode: ActionMode?,
+        item: MenuItem?
+    ): Boolean {
+      val txt = findViewById
+    }
+    override fun onCreateActionMode(
+        mode: ActionMode?,
+        menu: Menu?
+    ): Boolean {
+        mode?.menuInflater?.inflate(R.menu.s02_menu_action, menu)
+        mode?.title = "1 reservation"
         return true
+    }
+    override fun onDestroyActionMode(mode: ActionMode?) {
+        return
+    }
+    override fun onPrepareActionMode(
+        mode: ActionMode?,
+        menu: Menu?
+    ): Boolean {
+        return false
     }
 }
