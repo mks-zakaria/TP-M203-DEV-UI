@@ -1,13 +1,11 @@
 package ma.ofppt.ista.alamal
 
 import android.os.Bundle
-import android.view.ActionMode
-import android.view.ContextMenu
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.view.ActionMode
 
 // MODE COURS (Playground) : écran VIDE pour tester en direct les exemples montrés en cours.
 // Écrivez le layout dans res/layout/activity_playground.xml et le code Kotlin ci-dessous, dans onCreate.
@@ -132,9 +130,11 @@ class PlaygroundActivity : AppCompatActivity() {
 //        registerForContextMenu(textDeContext)
         // fin menu contextuelle
         val txtRes = findViewById<TextView>(R.id.txtResa)
+        val txtAction = findViewById<TextView>(R.id.txtAction)
         txtRes.setOnLongClickListener {
-            txtRes.isSelected = true
-            startSupportActionMode(ClassDeCallBack)
+
+            startSupportActionMode(ClassDeCallBack(txtRes, txtAction))
+            true
         }
     }
 
@@ -176,29 +176,33 @@ class PlaygroundActivity : AppCompatActivity() {
     // fin de menu contextuelle
 
 }
-class ClassDeCallBack : ActionMode.Callback {
+
+class ClassDeCallBack(val txtRes: TextView, val txtAction: TextView) : ActionMode.Callback {
     override fun onActionItemClicked(
         mode: ActionMode?,
         item: MenuItem?
     ): Boolean {
-        TODO("Not yet implemented")
+        txtAction.text = "selectionné: ${item?.title}"
+        mode?.finish()
+        return false
     }
 
     override fun onCreateActionMode(
         mode: ActionMode?,
         menu: Menu?
     ): Boolean {
-        TODO("Not yet implemented")
+        mode?.menuInflater?.inflate(R.menu.s02_menu_action, menu)
+        return true
     }
 
     override fun onDestroyActionMode(mode: ActionMode?) {
-        TODO("Not yet implemented")
+        return
     }
 
     override fun onPrepareActionMode(
         mode: ActionMode?,
         menu: Menu?
     ): Boolean {
-        TODO("Not yet implemented")
+        return false
     }
 }
