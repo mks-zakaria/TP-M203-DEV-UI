@@ -125,10 +125,12 @@ class PlaygroundActivity : AppCompatActivity() {
            // types de casting
         // menu daction + context
         val txtRes = findViewById<TextView>(R.id.txtResa)
+        val txtAct = findViewById<TextView>(R.id.txtAction)
         txtRes.setOnLongClickListener {
-            startSupportActionMode(RapRes())
-
+            startSupportActionMode(RapRes(txtRes, txtAct))
+                // on selectionner le text de reservation
             true
+
         }
     }
 
@@ -175,24 +177,14 @@ class PlaygroundActivity : AppCompatActivity() {
     // fin de menu contextuelle
 }
 
-
-class RapRes(): ActionMode.Callback {
-    override fun onActionItemClicked(
-        mode: ActionMode?,
-        item: MenuItem?
-    ): Boolean {
-      val txt = findViewById
-    }
+class RapRes(val txtResa: TextView, val txtAction: TextView): ActionMode.Callback {
     override fun onCreateActionMode(
         mode: ActionMode?,
         menu: Menu?
     ): Boolean {
         mode?.menuInflater?.inflate(R.menu.s02_menu_action, menu)
-        mode?.title = "1 reservation"
+        mode?.title = "1 Réservation"
         return true
-    }
-    override fun onDestroyActionMode(mode: ActionMode?) {
-        return
     }
     override fun onPrepareActionMode(
         mode: ActionMode?,
@@ -200,4 +192,19 @@ class RapRes(): ActionMode.Callback {
     ): Boolean {
         return false
     }
+    override fun onActionItemClicked(
+        mode: ActionMode?,
+        item: MenuItem?
+    ): Boolean {
+        txtAction.text = "${item?.title}"
+        mode?.finish()
+       return false
+    }
+
+    override fun onDestroyActionMode(mode: ActionMode?) {
+
+        // unselect le text
+        return
+    }
+
 }
