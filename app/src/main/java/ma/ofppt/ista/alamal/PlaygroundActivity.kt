@@ -6,6 +6,8 @@ import android.view.ContextMenu
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.widget.ImageButton
+import android.widget.PopupMenu
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.view.ActionMode
@@ -123,16 +125,40 @@ class PlaygroundActivity : AppCompatActivity() {
         // fin de menu contextuell
             // casting entre les type de base + cree
            // types de casting
-        // menu daction + context
-        val txtRes = findViewById<TextView>(R.id.txtResa)
-        val txtAct = findViewById<TextView>(R.id.txtAction)
-        txtRes.setOnLongClickListener {
-            startSupportActionMode(RapRes(txtRes, txtAct))
-                // on selectionner le text de reservation
-            true
+        // etape 07 menu daction + context
 
+        // etape 07
+//        val txtRes = findViewById<TextView>(R.id.txtResa)
+//        val txtAct = findViewById<TextView>(R.id.txtAction)
+//        txtRes.setOnLongClickListener {
+//            startSupportActionMode(RapRes(txtRes, txtAct))
+//                // on selectionner le text de reservation
+//            true
+//
+//        }
+
+        val imgButton = findViewById<ImageButton>(R.id.btnPlus)
+        val txtPopUp = findViewById<TextView>(R.id.txtPopup)
+
+        imgButton.setOnClickListener {
+
+            val btnPop = PopupMenu(this,imgButton)
+            btnPop.menuInflater.inflate(R.menu.s02_menu_popup, btnPop.menu)
+
+            btnPop.setOnMenuItemClickListener { item ->
+                when(item.itemId){
+                    R.id.popup_message -> txtPopUp.text = "Message envoyée"
+                    R.id.popup_ticket -> txtPopUp.text = "ticket imprimé"
+                }
+                true
+            }
+            btnPop.show()
         }
+
+
     }
+
+    // fin etape 07
 
 
 //    // menu doptions
@@ -177,34 +203,37 @@ class PlaygroundActivity : AppCompatActivity() {
     // fin de menu contextuelle
 }
 
-class RapRes(val txtResa: TextView, val txtAction: TextView): ActionMode.Callback {
-    override fun onCreateActionMode(
-        mode: ActionMode?,
-        menu: Menu?
-    ): Boolean {
-        mode?.menuInflater?.inflate(R.menu.s02_menu_action, menu)
-        mode?.title = "1 Réservation"
-        return true
-    }
-    override fun onPrepareActionMode(
-        mode: ActionMode?,
-        menu: Menu?
-    ): Boolean {
-        return false
-    }
-    override fun onActionItemClicked(
-        mode: ActionMode?,
-        item: MenuItem?
-    ): Boolean {
-        txtAction.text = "${item?.title}"
-        mode?.finish()
-       return false
-    }
+// etape 07
+//class RapRes(val txtResa: TextView, val txtAction: TextView): ActionMode.Callback {
+//    override fun onCreateActionMode(
+//        mode: ActionMode?,
+//        menu: Menu?
+//    ): Boolean {
+//        mode?.menuInflater?.inflate(R.menu.s02_menu_action, menu)
+//        mode?.title = "1 Réservation"
+//        return true
+//    }
+//    override fun onPrepareActionMode(
+//        mode: ActionMode?,
+//        menu: Menu?
+//    ): Boolean {
+//        return false
+//    }
+//    override fun onActionItemClicked(
+//        mode: ActionMode?,
+//        item: MenuItem?
+//    ): Boolean {
+//        txtAction.text = "${item?.title}"
+//        mode?.finish()
+//       return false
+//    }
+//
+//    override fun onDestroyActionMode(mode: ActionMode?) {
+//
+//        // unselect le text
+//        return
+//    }
+//
+//}
 
-    override fun onDestroyActionMode(mode: ActionMode?) {
-
-        // unselect le text
-        return
-    }
-
-}
+// fin etape 07
