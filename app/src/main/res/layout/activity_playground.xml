@@ -176,24 +176,58 @@
 <!--        android:layout_height="wrap_content"-->
 <!--        android:textSize="22sp" />-->
     <!-- Étape 7 — barre d'action contextuelle : appui long sur la réservation -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Appui long sur la réservation :"
-        android:textSize="20sp" />
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Appui long sur la réservation :"-->
+<!--        android:textSize="20sp" />-->
 
-    <TextView
-        android:id="@+id/txtResa"
+<!--    <TextView-->
+<!--        android:id="@+id/txtResa"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:background="#E8F5E9"-->
+<!--        android:padding="16dp"-->
+<!--        android:text="Réservation · Hayat · Poste 5 · 15 h"-->
+<!--        android:textSize="22sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtAction"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="22sp" />-->
+<!--    -->
+<!--    fin de etape  7-->
+
+
+    <!-- Étape 8 — menu pop-up : un bouton « 3 points » à côté du poste 7 -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:background="#E8F5E9"
-        android:padding="16dp"
-        android:text="Réservation · Hayat · Poste 5 · 15 h"
-        android:textSize="22sp" />
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:text="Poste 7 · Mehdi"
+            android:textSize="22sp" />
+
+        <ImageButton
+            android:id="@+id/btnPlus"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Plus d'actions"
+            android:src="@drawable/s02_ic_plus" />
+    </LinearLayout>
 
     <TextView
-        android:id="@+id/txtAction"
+        android:id="@+id/txtPopup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="22sp" />

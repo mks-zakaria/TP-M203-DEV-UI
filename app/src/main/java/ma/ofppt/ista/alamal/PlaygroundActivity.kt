@@ -1,11 +1,10 @@
 package ma.ofppt.ista.alamal
 
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
+import android.widget.ImageButton
+import android.widget.PopupMenu
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.view.ActionMode
 
 // MODE COURS (Playground) : écran VIDE pour tester en direct les exemples montrés en cours.
 // Écrivez le layout dans res/layout/activity_playground.xml et le code Kotlin ci-dessous, dans onCreate.
@@ -129,13 +128,43 @@ class PlaygroundActivity : AppCompatActivity() {
 //        val textDeContext = findViewById<TextView>(R.id.txtPoste3)
 //        registerForContextMenu(textDeContext)
         // fin menu contextuelle
-        val txtRes = findViewById<TextView>(R.id.txtResa)
-        val txtAction = findViewById<TextView>(R.id.txtAction)
-        txtRes.setOnLongClickListener {
 
-            startSupportActionMode(ClassDeCallBack(txtRes, txtAction))
+        // etape 07 : menu action contextuelle
+//        val txtRes = findViewById<TextView>(R.id.txtResa)
+//        val txtAction = findViewById<TextView>(R.id.txtAction)
+//        txtRes.setOnLongClickListener {
+//
+//            startSupportActionMode(ClassDeCallBack(txtRes, txtAction))
+//            true
+//        }
+        // fin menu action context
+
+
+        // etape 08 menu pop up
+
+        val img = findViewById<ImageButton>(R.id.btnPlus)
+        val txtImg = findViewById<TextView>(R.id.txtPopup)
+
+        img.setOnClickListener {
+            val popup = PopupMenu(this, img)
+            popup.menuInflater.inflate(R.menu.s02_menu_popup, popup.menu)
+
+            popup.setOnMenuItemClickListener { item ->
+                when (item.itemId) {
+                    R.id.popup_message -> txtImg.text = "Enveoyer un message !"
+                    R.id.popup_ticket -> txtImg.text = "Acheter un ticket !"
+                }
+                true
+            }
+            popup.show()
             true
         }
+
+        // onclickistener
+        // dans le set onclick on doir declarer un menu popup
+        // changer le text en fonction de lelement choisit
+
+
     }
 
     // menu des options
@@ -177,32 +206,37 @@ class PlaygroundActivity : AppCompatActivity() {
 
 }
 
-class ClassDeCallBack(val txtRes: TextView, val txtAction: TextView) : ActionMode.Callback {
-    override fun onActionItemClicked(
-        mode: ActionMode?,
-        item: MenuItem?
-    ): Boolean {
-        txtAction.text = "selectionné: ${item?.title}"
-        mode?.finish()
-        return false
-    }
+// etape 07 : menu action contextuelle
 
-    override fun onCreateActionMode(
-        mode: ActionMode?,
-        menu: Menu?
-    ): Boolean {
-        mode?.menuInflater?.inflate(R.menu.s02_menu_action, menu)
-        return true
-    }
+//class ClassDeCallBack(val txtRes: TextView, val txtAction: TextView) : ActionMode.Callback {
+//    override fun onActionItemClicked(
+//        mode: ActionMode?,
+//        item: MenuItem?
+//    ): Boolean {
+//        txtAction.text = "selectionné: ${item?.title}"
+//        mode?.finish()
+//        return false
+//    }
+//
+//    override fun onCreateActionMode(
+//        mode: ActionMode?,
+//        menu: Menu?
+//    ): Boolean {
+//        mode?.menuInflater?.inflate(R.menu.s02_menu_action, menu)
+//        return true
+//    }
+//
+//    override fun onDestroyActionMode(mode: ActionMode?) {
+//        return
+//    }
+//
+//    override fun onPrepareActionMode(
+//        mode: ActionMode?,
+//        menu: Menu?
+//    ): Boolean {
+//        return false
+//    }
+//}
 
-    override fun onDestroyActionMode(mode: ActionMode?) {
-        return
-    }
 
-    override fun onPrepareActionMode(
-        mode: ActionMode?,
-        menu: Menu?
-    ): Boolean {
-        return false
-    }
-}
+// fin etape 07

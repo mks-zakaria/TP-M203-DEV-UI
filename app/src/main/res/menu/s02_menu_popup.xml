@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/popup_message"
+        android:title="Envoyer un message" />
+    <item
+        android:id="@+id/popup_ticket"
+        android:title="Imprimer le ticket" />
+</menu>
